@@ -94,9 +94,36 @@ export default function Home() {
             >
               The Open Machine is a creative studio, zine shop, and organizing body producing media and events at the frontier of coordination.
             </Heading>
-            <Text fontSize={['16px', null, '18px']} lineHeight="1.7" color="primary" opacity={0.85}>
+            <Text fontSize={['16px', null, '18px']} lineHeight="1.7" color="primary" opacity={0.85} mb={6}>
               We publish books, zines, and posters. We convene salons, workshops, and gatherings. We incubate tools and knowledge commons. Everything we make emerges from research and practice woven together. We work from the underground—the informal networks, experimental scenes, and temporary assemblies where new ideas originate. Institutions capture and formalize what the underground creates. We build infrastructure that lets it circulate on its own terms.
             </Text>
+            <Text fontSize={['16px', null, '18px']} lineHeight="1.7" color="primary" opacity={0.85} mb={10}>
+              We culturally negotiate the values of the underground with traditional and emerging technologies—finding ways to preserve what matters while engaging with new tools and systems.
+            </Text>
+            <Box position="relative">
+              <Image 
+                src="/assets/Frame_1-4_1766814770591.png" 
+                alt="Four core underground values plus one formal quality" 
+                w="100%"
+                maxW="700px"
+              />
+              <Box 
+                bg="white" 
+                py={3} 
+                px={4} 
+                mt={0}
+                maxW="700px"
+              >
+                <Text 
+                  fontSize={['13px', null, '14px']} 
+                  color="black" 
+                  fontWeight="400"
+                  fontStyle="italic"
+                >
+                  Four core underground values + one formal or structural quality
+                </Text>
+              </Box>
+            </Box>
           </Box>
         </Flex>
 
