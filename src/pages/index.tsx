@@ -328,12 +328,63 @@ export default function Home() {
             </Text>
           </Box>
           <Box flex="1">
-            <Box maxW="600px" mb={10}>
-              <Text fontSize="15px" lineHeight="1.7" color="primary" opacity={0.85} mb={6}>
+            <Box maxW="600px">
+              <Text fontSize="15px" lineHeight="1.7" color="primary" opacity={0.85}>
                 The Open Machine convenes temporary assemblies where ideas meet bodies and something gets made. Salons, workshops, lecture series, unconferences, gatherings. We believe that ideas need space to unfold in real time, among people who can challenge and extend them. Our events create the conditions for collective sense-making.
               </Text>
-              <Image src="/assets/gfel25_salon.jpg" alt="GFEL 2025 Salon" width="100%" borderRadius="md"/>
             </Box>
+          </Box>
+        </Flex>
+
+        <Box w="100%" overflow="hidden" mb={6}>
+          <Flex
+            overflowX="auto"
+            gap={4}
+            px={[6, null, 10]}
+            pb={4}
+            css={{
+              '&::-webkit-scrollbar': { height: '8px' },
+              '&::-webkit-scrollbar-track': { background: 'transparent' },
+              '&::-webkit-scrollbar-thumb': { background: '#ccc', borderRadius: '4px' },
+              scrollSnapType: 'x mandatory',
+            }}
+          >
+            {[
+              { src: '/assets/gfel25_salon.jpg', alt: 'GFEL 2025 Salon' },
+              { src: '/assets/event_1.jpeg', alt: 'Open Machine Event' },
+              { src: '/assets/event_2.jpeg', alt: 'Open Machine Gathering' },
+              { src: '/assets/event_3.jpeg', alt: 'Open Machine Workshop' },
+              { src: '/assets/event_4.jpeg', alt: 'Open Machine Evening' },
+              { src: '/assets/event_5.jpeg', alt: 'Open Machine Outdoor Session' },
+            ].map((img, i) => (
+              <Box 
+                key={i} 
+                flexShrink={0} 
+                w={['85vw', null, '60vw']} 
+                h={['50vw', null, '35vw']}
+                maxH="500px"
+                css={{ scrollSnapAlign: 'start' }}
+              >
+                <Image 
+                  src={img.src} 
+                  alt={img.alt} 
+                  w="100%" 
+                  h="100%" 
+                  objectFit="cover"
+                />
+              </Box>
+            ))}
+          </Flex>
+        </Box>
+
+        <Flex 
+          direction={['column', null, 'row']} 
+          w="100%" 
+          pb={[10, null, 20]} 
+          px={[6, null, 10]}
+        >
+          <Box w={['100%', null, '200px']} flexShrink={0} mb={[4, null, 0]} />
+          <Box flex="1">
             <Flex direction={['column', null, 'row']} gap={[3, null, 4]}>
               <Box flex="1" border="1px solid" borderColor="primary" p={4} borderRadius="sm">
                 <Text fontSize="10px" fontWeight="500" textTransform="uppercase" letterSpacing="1px" mb={3} opacity={0.5} fontFamily="'Inter', sans-serif">2025</Text>
