@@ -11,6 +11,7 @@ import {
   PageMetadata,
 } from '@/components'
 import { Header } from '@/components/Header'
+import { Footer } from '@/components/Footer'
 import { useState } from 'react'
 
 const mediaItems = [
@@ -66,11 +67,13 @@ export default function Home() {
         </Flex>
 
         <Flex 
+          id="what-we-do"
           direction={['column', null, 'row']} 
           w="100%" 
           py={[10, null, 20]} 
           px={[6, null, 10]}
           bg="bg"
+          scrollMarginTop="100px"
         >
           <Box w={['100%', null, '200px']} flexShrink={0} mb={[4, null, 0]}>
             <Box w="40px" h="1px" bg="primary" opacity={0.3} mb={3} />
@@ -127,7 +130,7 @@ export default function Home() {
           </Box>
         </Flex>
 
-        <Box w="100%" py={[10, null, 16]} px={[6, null, 10]}>
+        <Box id="media" w="100%" py={[10, null, 16]} px={[6, null, 10]} scrollMarginTop="100px">
           <Flex direction={['column', null, 'row']} mb={8}>
             <Box w={['100%', null, '200px']} flexShrink={0} mb={[4, null, 0]}>
               <Box w="40px" h="1px" bg="primary" opacity={0.3} mb={3} />
@@ -306,10 +309,12 @@ export default function Home() {
         </Box>
 
         <Flex 
+          id="events"
           direction={['column', null, 'row']} 
           w="100%" 
           py={[10, null, 20]} 
           px={[6, null, 10]}
+          scrollMarginTop="100px"
         >
           <Box w={['100%', null, '200px']} flexShrink={0} mb={[4, null, 0]}>
             <Box w="40px" h="1px" bg="primary" opacity={0.3} mb={3} />
@@ -357,10 +362,12 @@ export default function Home() {
         </Flex>
 
         <Flex 
+          id="research"
           direction={['column', null, 'row']} 
           w="100%" 
           py={[10, null, 20]} 
           px={[6, null, 10]}
+          scrollMarginTop="100px"
         >
           <Box w={['100%', null, '200px']} flexShrink={0} mb={[4, null, 0]}>
             <Box w="40px" h="1px" bg="primary" opacity={0.3} mb={3} />
@@ -396,6 +403,8 @@ export default function Home() {
             </Flex>
           </Box>
         </Flex>
+
+        <Footer />
       </main>
       </>
   )

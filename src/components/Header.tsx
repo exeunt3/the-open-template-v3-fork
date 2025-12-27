@@ -1,17 +1,58 @@
 import React from 'react'
-import { Flex, Link, Heading, } from '@chakra-ui/react'
+import { Flex, Link, Heading, HStack, Text } from '@chakra-ui/react'
+
+const navItems = [
+  { label: 'What We Do', href: '#what-we-do' },
+  { label: 'Media', href: '#media' },
+  { label: 'Events', href: '#events' },
+  { label: 'Research', href: '#research' },
+]
 
 export const Header = () => {
   return (
-    <Flex direction="row" alignItems="start" justifyContent="space-between" w="100%" h="80px" p={5}>
-    <Heading
-          color="primary"
-          fontWeight="100"
-          lineHeight="0.9em"
-          fontSize={['xl', null, '2xl']}
-          mb={5}
-        >
-          <Link href="/">The Open Machine</Link>
+    <Flex 
+      direction="row" 
+      alignItems="center" 
+      justifyContent="space-between" 
+      w="100%" 
+      h="80px" 
+      px={[5, null, 10]}
+      position="sticky"
+      top="0"
+      bg="bg"
+      zIndex="100"
+      borderBottom="1px solid"
+      borderColor="rgba(255,255,255,0.1)"
+    >
+      <Heading
+        color="primary"
+        fontWeight="100"
+        lineHeight="0.9em"
+        fontSize={['lg', null, 'xl']}
+      >
+        <Link href="/" _hover={{ textDecoration: 'none', opacity: 0.8 }}>The Open Machine</Link>
       </Heading>
-  </Flex>
-)}
+      
+      <HStack 
+        spacing={[4, null, 8]} 
+        display={['none', null, 'flex']}
+      >
+        {navItems.map((item) => (
+          <Link 
+            key={item.href}
+            href={item.href}
+            fontSize="12px"
+            fontWeight="400"
+            letterSpacing="1px"
+            color="primary"
+            opacity={0.7}
+            _hover={{ opacity: 1, textDecoration: 'none' }}
+            transition="opacity 0.2s ease"
+          >
+            {item.label}
+          </Link>
+        ))}
+      </HStack>
+    </Flex>
+  )
+}
