@@ -98,7 +98,7 @@ export default function Home() {
               The Open Machine is a creative studio, zine shop, and organizing body producing media and events at the frontier of coordination.
             </Heading>
             <Text fontSize="15px" lineHeight="1.7" color="primary" opacity={0.85} mb={6}>
-              We publish books, zines, and posters. We convene salons, workshops, and gatherings. We incubate tools and knowledge commons. Everything we make emerges from research and practice woven together. We work from the underground—the informal networks, experimental scenes, and temporary assemblies where new ideas originate. Institutions capture and formalize what the underground creates. We build infrastructure that lets it circulate on its own terms.
+              We publish books, zines, and posters. We convene salons, workshops, and gatherings. We incubate tools and knowledge commons. Everything we make emerges from research and practice woven together. We work from the underground—the informal networks, experimental scenes, and temporary assemblies where new ideas originate. Institutions capture and formalize what the underground creates. We build infrastructure that lets it circulate on its own terms. Our practice is rooted in the belief that form and content are inseparable.
             </Text>
             <Text fontSize="15px" lineHeight="1.7" color="primary" opacity={0.85} mb={10}>
               We culturally negotiate the values of the underground with traditional and emerging technologies—finding ways to preserve what matters while engaging with new tools and systems.
@@ -145,7 +145,7 @@ export default function Home() {
             </Box>
             <Box flex="1" maxW="600px">
               <Text fontSize="15px" lineHeight="1.7" color="primary" opacity={0.85}>
-                The Open Machine publishes artifacts from the frontier—zines, books, posters, booklets. We share information, transmit experience, and document protocol.
+                The Open Machine publishes artifacts from the frontier—zines, books, posters, booklets. We share information, transmit experience, and document protocol. Each publication is designed as an object with its own material logic, meant to circulate through networks both digital and physical.
               </Text>
             </Box>
           </Flex>
@@ -330,14 +330,14 @@ export default function Home() {
           <Box flex="1">
             <Box maxW="600px" mb={10}>
               <Text fontSize="15px" lineHeight="1.7" color="primary" opacity={0.85} mb={6}>
-                The Open Machine convenes temporary assemblies where ideas meet bodies and something gets made. Salons, workshops, lecture series, unconferences, gatherings.
+                The Open Machine convenes temporary assemblies where ideas meet bodies and something gets made. Salons, workshops, lecture series, unconferences, gatherings. We believe that ideas need space to unfold in real time, among people who can challenge and extend them. Our events create the conditions for collective sense-making.
               </Text>
               <Image src="/assets/gfel25_salon.jpg" alt="GFEL 2025 Salon" width="100%" borderRadius="md"/>
             </Box>
-            <Flex direction={['column', null, 'row']} gap={[4, null, 20]}>
-              <Box flex="1">
-                <Text fontSize="11px" fontWeight="500" textTransform="uppercase" letterSpacing="1px" mb={4} opacity={0.5}>2025</Text>
-                <Flex direction="column" gap={2}>
+            <Flex direction={['column', null, 'row']} gap={[4, null, 6]}>
+              <Box flex="1" bg="primary" color="bg" p={6} borderRadius="md">
+                <Text fontSize="11px" fontWeight="500" textTransform="uppercase" letterSpacing="1px" mb={4} opacity={0.6} fontFamily="'Inter', sans-serif">2025</Text>
+                <Flex direction="column" gap={3}>
                   <Text fontSize="15px">Gathering — <em>Open Protocols Convene</em>, Boulder, Colorado</Text>
                   <Text fontSize="15px">Salon — <em>Open Protocols Social</em>, Portland, Oregon</Text>
                   <Text fontSize="15px">Workshop — <em>Polycentric Equity Swap Game</em>, Buenos Aires</Text>
@@ -345,9 +345,9 @@ export default function Home() {
                   <Text fontSize="15px">Gathering — <em>GFEL II</em>, Boulder, Colorado</Text>
                 </Flex>
               </Box>
-              <Box flex="1">
-                <Text fontSize="11px" fontWeight="500" textTransform="uppercase" letterSpacing="1px" mb={4} opacity={0.5}>2023–2024</Text>
-                <Flex direction="column" gap={2}>
+              <Box flex="1" bg="primary" color="bg" p={6} borderRadius="md">
+                <Text fontSize="11px" fontWeight="500" textTransform="uppercase" letterSpacing="1px" mb={4} opacity={0.6} fontFamily="'Inter', sans-serif">2023–2024</Text>
+                <Flex direction="column" gap={3}>
                   <Text fontSize="15px">Workshop — <em>Institutions, Extitutions and the Body without Organs</em>, Belgium 2024</Text>
                   <Text fontSize="15px">Salon — <em>OSS: Open Salon Series</em>, Portland, Oregon 2024</Text>
                   <Text fontSize="15px">Lecture Series — <em>Local DAO Summer</em>, cyberspace 2024</Text>
@@ -383,21 +383,25 @@ export default function Home() {
           <Box flex="1">
             <Box maxW="600px" mb={10}>
               <Text fontSize="15px" lineHeight="1.7" color="primary" opacity={0.85}>
-                The Open Machine conducts research on the characteristics of extitutional space—the spontaneous orders, open protocols, and plural ontologies of the space outside of administrative institutions.
+                The Open Machine conducts research on the characteristics of extitutional space—the spontaneous orders, open protocols, and plural ontologies of the space outside of administrative institutions. We develop frameworks for understanding how coordination happens beyond formal boundaries. Our research bridges theory and practice, feeding directly into the tools and events we produce.
               </Text>
             </Box>
-            <Flex direction={['column', null, 'row']} gap={[6, null, 10]} flexWrap="wrap">
-              <Box w={['100%', null, 'calc(50% - 20px)']}>
-                <Heading fontSize="20px" mb={3}>PCVC</Heading>
-                <Text fontSize="15px" opacity={0.8}>Research into polycentric value creation and the mechanisms of distributed coordination.</Text>
+            <Flex direction={['column', null, 'row']} gap={[4, null, 6]} flexWrap="wrap">
+              <Box w={['100%', null, 'calc(50% - 12px)']} bg="primary" color="bg" p={6} borderRadius="md">
+                <Heading fontSize="18px" mb={3} fontWeight="600">PCVC</Heading>
+                <Text fontSize="15px" opacity={0.85}>Research into polycentric value creation and the mechanisms of distributed coordination.</Text>
               </Box>
-              <Box w={['100%', null, 'calc(50% - 20px)']}>
-                <Heading fontSize="20px" mb={3}>Hyperactive Public Goods Funding</Heading>
-                <Text fontSize="15px" opacity={0.8}>Exploring novel mechanisms for sustaining commons and public goods in networked environments.</Text>
+              <Box w={['100%', null, 'calc(50% - 12px)']} bg="primary" color="bg" p={6} borderRadius="md">
+                <Heading fontSize="18px" mb={3} fontWeight="600">Hyperactive Public Goods Funding</Heading>
+                <Text fontSize="15px" opacity={0.85}>Exploring novel mechanisms for sustaining commons and public goods in networked environments.</Text>
               </Box>
-              <Box w={['100%', null, 'calc(50% - 20px)']}>
-                <Heading fontSize="20px" mb={3}>Open Protocols Research Group</Heading>
-                <Text fontSize="15px" opacity={0.8}>A collaborative inquiry into the social and technical dimensions of protocol-based coordination.</Text>
+              <Box w={['100%', null, 'calc(50% - 12px)']} bg="primary" color="bg" p={6} borderRadius="md">
+                <Heading fontSize="18px" mb={3} fontWeight="600">Open Protocols Research Group</Heading>
+                <Text fontSize="15px" opacity={0.85}>A collaborative inquiry into the social and technical dimensions of protocol-based coordination.</Text>
+              </Box>
+              <Box w={['100%', null, 'calc(50% - 12px)']} bg="primary" color="bg" p={6} borderRadius="md">
+                <Heading fontSize="18px" mb={3} fontWeight="600">Intensive Protocols</Heading>
+                <Text fontSize="15px" opacity={0.85}>Investigating the affective and embodied dimensions of protocol adoption and resistance.</Text>
               </Box>
             </Flex>
           </Box>
