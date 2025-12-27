@@ -75,7 +75,7 @@ export default function Home() {
           <Box w={['100%', null, '200px']} flexShrink={0} mb={[4, null, 0]}>
             <Text 
               fontSize="17px" 
-              color="blue.600"
+              color="primary" opacity={0.6}
             >
               What We Do _
             </Text>
@@ -84,7 +84,7 @@ export default function Home() {
             <Text 
               fontSize="17px" 
               lineHeight="1.5" 
-              color="blue.600"
+              color="primary" opacity={0.6}
               mb={6}
             >
               The Open Machine is a creative studio, zine shop, and organizing body producing media and events at the frontier of coordination.
@@ -127,7 +127,7 @@ export default function Home() {
             <Box w={['100%', null, '200px']} flexShrink={0} mb={[4, null, 0]}>
               <Text 
                 fontSize="17px" 
-                color="blue.600"
+                color="primary" opacity={0.6}
               >
                 Media _
               </Text>
@@ -305,7 +305,7 @@ export default function Home() {
           <Box w={['100%', null, '200px']} flexShrink={0} mb={[4, null, 0]}>
             <Text 
               fontSize="17px" 
-              color="blue.600"
+              color="primary" opacity={0.6}
             >
               Events _
             </Text>
@@ -319,7 +319,7 @@ export default function Home() {
             </Box>
             <Flex direction={['column', null, 'row']} gap={[4, null, 20]}>
               <Box flex="1">
-                <Text fontSize="17px" color="blue.600" mb={4}>2025</Text>
+                <Text fontSize="17px" color="primary" opacity={0.6} mb={4}>2025</Text>
                 <Flex direction="column" gap={2}>
                   <Text fontSize="17px" lineHeight="1.5">Gathering — <em>Open Protocols Convene</em>, Boulder, Colorado</Text>
                   <Text fontSize="17px" lineHeight="1.5">Salon — <em>Open Protocols Social</em>, Portland, Oregon</Text>
@@ -329,7 +329,7 @@ export default function Home() {
                 </Flex>
               </Box>
               <Box flex="1">
-                <Text fontSize="17px" color="blue.600" mb={4}>2023–2024</Text>
+                <Text fontSize="17px" color="primary" opacity={0.6} mb={4}>2023–2024</Text>
                 <Flex direction="column" gap={2}>
                   <Text fontSize="17px" lineHeight="1.5">Workshop — <em>Institutions, Extitutions and the Body without Organs</em>, Belgium 2024</Text>
                   <Text fontSize="17px" lineHeight="1.5">Salon — <em>OSS: Open Salon Series</em>, Portland, Oregon 2024</Text>
@@ -352,7 +352,7 @@ export default function Home() {
           <Box w={['100%', null, '200px']} flexShrink={0} mb={[4, null, 0]}>
             <Text 
               fontSize="17px" 
-              color="blue.600"
+              color="primary" opacity={0.6}
             >
               Research _
             </Text>
@@ -365,15 +365,15 @@ export default function Home() {
             </Box>
             <Flex direction={['column', null, 'row']} gap={[6, null, 10]} flexWrap="wrap">
               <Box w={['100%', null, 'calc(50% - 20px)']}>
-                <Text fontSize="17px" mb={2} color="blue.600">PCVC</Text>
+                <Text fontSize="17px" mb={2} color="primary" opacity={0.6}>PCVC</Text>
                 <Text fontSize="17px" lineHeight="1.5" color="primary">Research into polycentric value creation and the mechanisms of distributed coordination.</Text>
               </Box>
               <Box w={['100%', null, 'calc(50% - 20px)']}>
-                <Text fontSize="17px" mb={2} color="blue.600">Hyperactive Public Goods Funding</Text>
+                <Text fontSize="17px" mb={2} color="primary" opacity={0.6}>Hyperactive Public Goods Funding</Text>
                 <Text fontSize="17px" lineHeight="1.5" color="primary">Exploring novel mechanisms for sustaining commons and public goods in networked environments.</Text>
               </Box>
               <Box w={['100%', null, 'calc(50% - 20px)']}>
-                <Text fontSize="17px" mb={2} color="blue.600">Open Protocols Research Group</Text>
+                <Text fontSize="17px" mb={2} color="primary" opacity={0.6}>Open Protocols Research Group</Text>
                 <Text fontSize="17px" lineHeight="1.5" color="primary">A collaborative inquiry into the social and technical dimensions of protocol-based coordination.</Text>
               </Box>
             </Flex>
