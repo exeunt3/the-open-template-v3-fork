@@ -335,8 +335,8 @@ export default function Home() {
               <Image src="/assets/gfel25_salon.jpg" alt="GFEL 2025 Salon" width="100%" borderRadius="md"/>
             </Box>
             <Flex direction={['column', null, 'row']} gap={[3, null, 4]}>
-              <Box flex="1" bg="primary" color="bg" p={4} borderRadius="sm">
-                <Text fontSize="10px" fontWeight="500" textTransform="uppercase" letterSpacing="1px" mb={3} opacity={0.6} fontFamily="'Inter', sans-serif">2025</Text>
+              <Box flex="1" border="1px solid" borderColor="primary" p={4} borderRadius="sm">
+                <Text fontSize="10px" fontWeight="500" textTransform="uppercase" letterSpacing="1px" mb={3} opacity={0.5} fontFamily="'Inter', sans-serif">2025</Text>
                 <Flex direction="column" gap={2}>
                   <Text fontSize="13px">Gathering — <em>Open Protocols Convene</em>, Boulder, Colorado</Text>
                   <Text fontSize="13px">Salon — <em>Open Protocols Social</em>, Portland, Oregon</Text>
@@ -345,8 +345,8 @@ export default function Home() {
                   <Text fontSize="13px">Gathering — <em>GFEL II</em>, Boulder, Colorado</Text>
                 </Flex>
               </Box>
-              <Box flex="1" bg="primary" color="bg" p={4} borderRadius="sm">
-                <Text fontSize="10px" fontWeight="500" textTransform="uppercase" letterSpacing="1px" mb={3} opacity={0.6} fontFamily="'Inter', sans-serif">2023–2024</Text>
+              <Box flex="1" border="1px solid" borderColor="primary" p={4} borderRadius="sm">
+                <Text fontSize="10px" fontWeight="500" textTransform="uppercase" letterSpacing="1px" mb={3} opacity={0.5} fontFamily="'Inter', sans-serif">2023–2024</Text>
                 <Flex direction="column" gap={2}>
                   <Text fontSize="13px">Workshop — <em>Institutions, Extitutions and the Body without Organs</em>, Belgium 2024</Text>
                   <Text fontSize="13px">Salon — <em>OSS: Open Salon Series</em>, Portland, Oregon 2024</Text>
@@ -387,19 +387,19 @@ export default function Home() {
               </Text>
             </Box>
             <Flex direction={['column', null, 'row']} gap={[3, null, 4]} flexWrap="wrap">
-              <Box w={['100%', null, 'calc(50% - 8px)']} bg="primary" color="bg" p={4} borderRadius="sm">
+              <Box w={['100%', null, 'calc(50% - 8px)']} border="1px solid" borderColor="primary" p={4} borderRadius="sm">
                 <Heading fontSize="15px" mb={2} fontWeight="600">PCVC</Heading>
                 <Text fontSize="13px" opacity={0.85}>Research into polycentric value creation and the mechanisms of distributed coordination.</Text>
               </Box>
-              <Box w={['100%', null, 'calc(50% - 8px)']} bg="primary" color="bg" p={4} borderRadius="sm">
+              <Box w={['100%', null, 'calc(50% - 8px)']} border="1px solid" borderColor="primary" p={4} borderRadius="sm">
                 <Heading fontSize="15px" mb={2} fontWeight="600">Hyperactive Public Goods Funding</Heading>
                 <Text fontSize="13px" opacity={0.85}>Exploring novel mechanisms for sustaining commons and public goods in networked environments.</Text>
               </Box>
-              <Box w={['100%', null, 'calc(50% - 8px)']} bg="primary" color="bg" p={4} borderRadius="sm">
+              <Box w={['100%', null, 'calc(50% - 8px)']} border="1px solid" borderColor="primary" p={4} borderRadius="sm">
                 <Heading fontSize="15px" mb={2} fontWeight="600">Open Protocols Research Group</Heading>
                 <Text fontSize="13px" opacity={0.85}>A collaborative inquiry into the social and technical dimensions of protocol-based coordination.</Text>
               </Box>
-              <Box w={['100%', null, 'calc(50% - 8px)']} bg="primary" color="bg" p={4} borderRadius="sm">
+              <Box w={['100%', null, 'calc(50% - 8px)']} border="1px solid" borderColor="primary" p={4} borderRadius="sm">
                 <Heading fontSize="15px" mb={2} fontWeight="600">Intensive Protocols</Heading>
                 <Text fontSize="13px" opacity={0.85}>Investigating the affective and embodied dimensions of protocol adoption and resistance.</Text>
               </Box>
