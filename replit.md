@@ -1,14 +1,15 @@
-# The Open Machine
+# The Open Machine (v3)
 
 A Next.js website built with Chakra UI for styling.
 
 ## Overview
 
 This is a content-focused website featuring articles, essays, and transmissions. It includes:
-- Homepage with navigation
+- Homepage with fluid chrome visual design
 - Library section
 - Transmissions (blog posts) with markdown content
 - Surveys section
+- Book pages: Earth Computer, Ethereum Localism Book, Friends of the Outside, Inverted City
 
 ## Tech Stack
 
