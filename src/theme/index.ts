@@ -31,6 +31,7 @@ const overrides = {
       },
       a: {
         textDecoration: 'underline',
+        fontFamily: `'Inter', -apple-system, BlinkMacSystemFont, sans-serif`,
         _hover: { textDecoration: 'none',}
       },
     }),

@@ -26,7 +26,7 @@ export const Header = () => {
     >
       <Heading
         color="primary"
-        fontWeight="100"
+        fontWeight="700"
         lineHeight="0.9em"
         fontSize={['lg', null, 'xl']}
       >

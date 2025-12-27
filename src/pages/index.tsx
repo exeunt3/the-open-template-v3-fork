@@ -78,11 +78,11 @@ export default function Home() {
           <Box w={['100%', null, '200px']} flexShrink={0} mb={[4, null, 0]}>
             <Box w="40px" h="1px" bg="primary" opacity={0.3} mb={3} />
             <Text 
-              fontSize="12px" 
-              fontWeight="400" 
+              fontSize="14px" 
+              fontWeight="500" 
               letterSpacing="2px"
               color="primary"
-              opacity={0.6}
+              fontFamily="'Inter', sans-serif"
             >
               〈 What We Do 〉
             </Text>
@@ -90,9 +90,9 @@ export default function Home() {
           <Box flex="1" maxW="800px">
             <Heading 
               as="h2" 
-              fontSize={['24px', null, '32px']} 
-              fontWeight="700" 
-              lineHeight="1.3" 
+              fontSize={['20px', null, '26px']} 
+              fontWeight="600" 
+              lineHeight="1.4" 
               mb={6}
             >
               The Open Machine is a creative studio, zine shop, and organizing body producing media and events at the frontier of coordination.
@@ -111,15 +111,14 @@ export default function Home() {
                 maxW="700px"
               />
               <Box 
-                bg="white" 
                 py={3} 
-                px={4} 
-                mt={0}
+                mt={2}
                 maxW="700px"
               >
                 <Text 
                   fontSize={['13px', null, '14px']} 
-                  color="black" 
+                  color="primary" 
+                  opacity={0.85}
                   fontWeight="400"
                   fontStyle="italic"
                 >
@@ -135,11 +134,11 @@ export default function Home() {
             <Box w={['100%', null, '200px']} flexShrink={0} mb={[4, null, 0]}>
               <Box w="40px" h="1px" bg="primary" opacity={0.3} mb={3} />
               <Text 
-                fontSize="12px" 
-                fontWeight="400" 
+                fontSize="14px" 
+                fontWeight="500" 
                 letterSpacing="2px"
                 color="primary"
-                opacity={0.6}
+                fontFamily="'Inter', sans-serif"
               >
                 〈 Media 〉
               </Text>
@@ -319,11 +318,11 @@ export default function Home() {
           <Box w={['100%', null, '200px']} flexShrink={0} mb={[4, null, 0]}>
             <Box w="40px" h="1px" bg="primary" opacity={0.3} mb={3} />
             <Text 
-              fontSize="12px" 
-              fontWeight="400" 
+              fontSize="14px" 
+              fontWeight="500" 
               letterSpacing="2px"
               color="primary"
-              opacity={0.6}
+              fontFamily="'Inter', sans-serif"
             >
               〈 Events 〉
             </Text>
@@ -372,11 +371,11 @@ export default function Home() {
           <Box w={['100%', null, '200px']} flexShrink={0} mb={[4, null, 0]}>
             <Box w="40px" h="1px" bg="primary" opacity={0.3} mb={3} />
             <Text 
-              fontSize="12px" 
-              fontWeight="400" 
+              fontSize="14px" 
+              fontWeight="500" 
               letterSpacing="2px"
               color="primary"
-              opacity={0.6}
+              fontFamily="'Inter', sans-serif"
             >
               〈 Research 〉
             </Text>
