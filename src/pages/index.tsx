@@ -73,15 +73,15 @@ export default function Home() {
           bg="bg"
         >
           <Box w={['100%', null, '200px']} flexShrink={0} mb={[4, null, 0]}>
+            <Box w="40px" h="1px" bg="primary" opacity={0.3} mb={3} />
             <Text 
-              fontSize="11px" 
-              fontWeight="500" 
-              textTransform="uppercase" 
-              letterSpacing="1px"
+              fontSize="12px" 
+              fontWeight="400" 
+              letterSpacing="2px"
               color="primary"
-              opacity={0.7}
+              opacity={0.6}
             >
-              What We Do
+              〈 What We Do 〉
             </Text>
           </Box>
           <Box flex="1" maxW="800px">
@@ -127,18 +127,18 @@ export default function Home() {
           </Box>
         </Flex>
 
-        <Box w="100%" borderTop="1px solid" borderColor="primary" py={[10, null, 16]} px={[6, null, 10]}>
+        <Box w="100%" py={[10, null, 16]} px={[6, null, 10]}>
           <Flex direction={['column', null, 'row']} mb={8}>
             <Box w={['100%', null, '200px']} flexShrink={0} mb={[4, null, 0]}>
+              <Box w="40px" h="1px" bg="primary" opacity={0.3} mb={3} />
               <Text 
-                fontSize="11px" 
-                fontWeight="500" 
-                textTransform="uppercase" 
-                letterSpacing="1px"
+                fontSize="12px" 
+                fontWeight="400" 
+                letterSpacing="2px"
                 color="primary"
-                opacity={0.7}
+                opacity={0.6}
               >
-                Media
+                〈 Media 〉
               </Text>
             </Box>
             <Box flex="1" maxW="600px">
@@ -310,19 +310,17 @@ export default function Home() {
           w="100%" 
           py={[10, null, 20]} 
           px={[6, null, 10]}
-          borderTop="1px solid" 
-          borderColor="primary"
         >
           <Box w={['100%', null, '200px']} flexShrink={0} mb={[4, null, 0]}>
+            <Box w="40px" h="1px" bg="primary" opacity={0.3} mb={3} />
             <Text 
-              fontSize="11px" 
-              fontWeight="500" 
-              textTransform="uppercase" 
-              letterSpacing="1px"
+              fontSize="12px" 
+              fontWeight="400" 
+              letterSpacing="2px"
               color="primary"
-              opacity={0.7}
+              opacity={0.6}
             >
-              Events
+              〈 Events 〉
             </Text>
           </Box>
           <Box flex="1">
@@ -363,19 +361,17 @@ export default function Home() {
           w="100%" 
           py={[10, null, 20]} 
           px={[6, null, 10]}
-          borderTop="1px solid" 
-          borderColor="primary"
         >
           <Box w={['100%', null, '200px']} flexShrink={0} mb={[4, null, 0]}>
+            <Box w="40px" h="1px" bg="primary" opacity={0.3} mb={3} />
             <Text 
-              fontSize="11px" 
-              fontWeight="500" 
-              textTransform="uppercase" 
-              letterSpacing="1px"
+              fontSize="12px" 
+              fontWeight="400" 
+              letterSpacing="2px"
               color="primary"
-              opacity={0.7}
+              opacity={0.6}
             >
-              Research
+              〈 Research 〉
             </Text>
           </Box>
           <Box flex="1">
