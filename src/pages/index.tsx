@@ -1,199 +1,158 @@
 import {
-  Box,
   Flex,
   Heading,
-  IconButton,
+  Image,
   Link,
   Text,
-  useColorMode,
 } from '@chakra-ui/react'
-import { SunIcon, MoonIcon } from '@chakra-ui/icons'
 import {
-  Section,
-  MatterSubstrates,
-  MatterInvertedCity,
-  MatterEthLocalism,
-  Secret,
   PageMetadata,
-  TransmissionsPost,
 } from '@/components'
-import Post from '../interfaces/post'
-import { getAllTransmissions } from '../lib/api'
+import { Header } from '@/components/Header'
 
-type Props = {
-  filteredPosts: Post[]
-}
-
-export default function Home({ filteredPosts }: Props) {
-  const { colorMode, toggleColorMode } = useColorMode()
-  const isDarkMode = colorMode === 'dark'
+export default function Home() {
   return (
     <>
       <PageMetadata
         title="The Open Machine"
         description=""
-        image="https://theopenmachine.net/assets/tOM_unfurl.jpg"
+        image="https://theopenmachine.net/assets/om_substrates2.png"
       />
       <main>
-        <Flex
-          direction="row"
-          textAlign="center"
-          borderRadius="xl"
-          background="bg"
-          color="primary"
-          flexWrap="wrap"
-        >
-          <Flex
-            direction="column"
-            alignItems="center"
-            justifyContent="center"
-            w={['100%', null, null, '50%']}
-            minH="100vh"
-            bgColor="primary"
-            bgImg={`url("/assets/${
-              isDarkMode ? 'bg_pointDark.png' : 'bg_pointLight.png'
-            }")`}
-            bgSize="cover"
-            bgPosition="center"
-          >
-            <Flex
-              className="border"
-              direction="column"
-              alignItems="center"
-              justifyContent="center"
-              borderColor="bg"
-              p={20}
-            >
-              <Heading
-                color="bg"
-                fontWeight="100"
-                lineHeight="0.9em"
-                fontSize={['4xl', null, '6xl']}
-              >
-                The
-                <br />
-                Open
-                <br />
-                Machine
-              </Heading>
+        <Header />
+          
+        <Flex direction="column" alignItems="start" justifyContent="space-between" w="100%" h="calc(100vh - 80px)" position="relative">
+            <Image src="/assets/om_substrates2.png" h="100%" w="100%" alt="The Open Machine" style={{ objectFit: 'cover', objectPosition: 'center center', overflow: "hidden"}}/>
+        </Flex>
+
+        <Flex direction="column" alignItems="start" justifyContent="space-between" maxW="600px" mx="auto" position="relative" p= {10}>
+            <Text>The Open Machine is a creative studio, zine shop, and organizing body producing media and events at the frontier of coordination. We publish books, zines, and posters. We convene salons, workshops, and gatherings. We incubate tools and knowledge commons. Everything we make emerges from research and practice woven together.</Text>
+            <Text mt={5}>We work from the underground—the informal networks, experimental scenes, and temporary assemblies where new ideas originate. Institutions capture and formalize what the underground creates. We build infrastructure that lets it circulate on its own terms. A machine that runs on autonomy, participation, and free association.</Text>
+            <Flex direction="column" gap={3} mt={5}>
+            <Text>the open machine is a substrate</Text>
+            <Text>the open machine is an extitution </Text> 
+            <Text>the open machine is an underground </Text> 
+            <Text>the open machine is an intensive process </Text> 
+            <Text>the open machine is a zine shop </Text> 
+            <Text>the open machine is a creative studio </Text> 
+            <Text>the open machine is an organizing body </Text> 
+            <Text>the open machine is an applied philosophy thinktank</Text>
+            <Text>the open machine is becoming</Text>
             </Flex>
-            <Secret />
+        </Flex>
+
+        <Flex direction="row" alignItems="start" justifyContent="space-between" w="100%" p={10} flexWrap="wrap" borderTop="1px solid" borderColor="primary">
+          <Flex direction="column" alignItems="start" w={['100%', null, '33%']} justifyContent="space-between" mr={10}>
+              <Heading color="primary" fontWeight="100" fontSize={['xl', null, '2xl']} mb={5}>Media</Heading>
+              <p>The Open Machine publishes artifacts from the frontier—zines, books, posters, booklets. We share information, transmit experience, and document protocol. Things that can be held, collected, and passed along. Ideas that circulate without capture.</p>
           </Flex>
-          <Flex
-            direction="column"
-            alignItems="center"
-            justifyContent="center"
-            p={12}
-            w={['100%', null, null, '50%']}
-            color="primary"
-          >
-            <IconButton
-              w="fit-content"
-              mx="auto"
-              icon={isDarkMode ? <SunIcon /> : <MoonIcon />}
-              onClick={toggleColorMode}
-              aria-label="Toggle color mode"
-              mb={3}
-            />
-            <Link
-              href="#intro"
-              color="primary"
-              my={6}
-              fontSize="2xl"
-              textStyle="h2"
-            >
-              Collaborations
+          <Flex direction="row" alignItems="start" justifyContent="space-between" w={['100%', null, '60%']} flexWrap="wrap">
+          <Flex direction="column" alignItems="start" w={['100%', null, '50%']} p={5}>
+            <Link href="/earth-computer" border="1px solid" borderColor="primary" p={3}>
+              <Heading fontSize={['md', null, 'lg']} mb={3}>Ethereum: The Earth Computer</Heading>
+              <Text>Poster - <i>Research, Writing and Design</i></Text>
+              <Image src="/assets/Assembly_mock-full.jpg" alt="Ethereum: The Earth Computer" width="100%" height="100%"/>
             </Link>
-            <Link
-              href="/library"
-              color="primary"
-              my={6}
-              fontSize="2xl"
-              textStyle="h2"
-            >
-              Library
+            </Flex>
+            <Flex direction="column" alignItems="start" w={['100%', null, '50%']} p={5}>
+              <Link href="/ethereum-localism-book" border="1px solid" borderColor="primary" p={3}>
+                <Heading fontSize={['md', null, 'lg']} mb={3}>Ethereum Localism: Grounding the Future of Coordination</Heading>
+                <Text>Book - <i>Editing, Design, and Publishing</i></Text>
+                <Image src="/assets/EL_Cover-front.jpg" alt="Ethereum Localism" width="100%" height="100%"/>  
+              </Link>
+            </Flex>
+            <Flex direction="column" alignItems="start" w={['100%', null, '50%']} p={5}>
+              <Link href="/inverted-city" border="1px solid" borderColor="primary" p={3}>
+                <Heading fontSize={['md', null, 'lg']} mb={3}>Inverted City</Heading>
+                <Text>Zine - <i>Writing, Editing, and Publishing</i></Text>
+                <Image src="/assets/invertedCity_cover.jpg" alt="Inverted City" width="100%" height="100%"/>
+              </Link>
+            </Flex>
+            <Flex direction="column" alignItems="start" w={['100%', null, '50%']} p={5}>
+            <Link href="/friends-of-the-outside" border="1px solid" borderColor="primary" p={3}>
+                <Heading fontSize={['md', null, 'lg']} mb={3}>Friends of the Outside</Heading>
+                <Text>Booklet - <i>Writing, Design, and Publishing</i></Text>
+                <Image src="/assets/FotO_physical-outside.jpg" alt="Friends of the Outside" width="100%" height="100%"/>
             </Link>
-            <Link
-              href="/transmissions"
-              color="primary"
-              my={6}
-              fontSize="2xl"
-              textStyle="h2"
-            >
-              Open Transmissions
-            </Link>
-            <Link
-              href="/surveys"
-              color="primary"
-              my={6}
-              fontSize="2xl"
-              textStyle="h2"
-            >
-              Surveys, 2068
-            </Link>
+            </Flex>
           </Flex>
         </Flex>
+
+        <Flex direction="row" alignItems="start" justifyContent="space-between" w="100%" p={10} flexWrap="wrap" borderTop="1px solid" borderColor="primary">
+          <Flex direction="column" alignItems="start" w={['100%', null, '33%']} justifyContent="space-between" mr={10}>
+              <Heading color="primary" fontWeight="100" fontSize={['xl', null, '2xl']} mb={5}>Events</Heading>
+              <Text>The Open Machine convenes temporary assemblies where ideas meet bodies and something gets made. Salons, workshops, lecture series, unconferences, gatherings. Spaces for interstitial productivity. Events come first. Structures dissolve afterward.</Text>
+              <Image src="/assets/gfel25_salon.jpg" alt="GFEL 2025 Salon" width="100%" height="100%"/>
+          </Flex>
+          <Flex direction="column" alignItems="start" justifyContent="space-between" w={['100%', null, '60%']}>
+            <Flex direction="column" gap={3} mt={5}>
+              <Text>Gathering - <i>Open Protocols Convene</i>, Boulder, Colorado 2025</Text>
+              <Text>Salon - <i>Open Protocols Social</i>, Portland, Oregon 2025</Text>
+              <Text>Workshop - <i>Polycentric Equity Swap Game</i>, Devconnect Buenos Aires, Argentina 2025</Text>
+              <Text>Workshop - <i>Assembly in Ethereum</i>, Schelling Point Devconnect Buenos Aires, Argentina 2025</Text>
+              <Text>Gathering - <i>GFEL II</i>, Boulder, Colorado 2025</Text>
+              <Text>Workshop - <i>Institutions, Extitutions and the Body without Organs</i> - Huy, Belgium 2024</Text>
+              <Text>Salon - <i>OSS: Open Salon Series</i>, Portland, Oregon 2024</Text>
+              <Text>Lecture Series - <i>Local DAO Summer</i>, cyberspace 2024</Text>
+              <Text>Salon - <i>Imagination Circle</i> - Portland, Oregon 2024</Text>
+              <Text>Gathering - <i>General Forum on Ethereum Localism</i>, Portland, Oregon 2024</Text>
+              <Text>Salon - <i>Cybernetics and Public Goods</i>, MCON 3 - Detroit, Michigan 2023</Text>
+              <Text>Salon - <i>Decentralized Independent Publishing as Protocol</i>, Devcon - Istanbul, Turkey 2023</Text>
+              <Text>Salon - <i>Crypto's Philosophical Underground</i> - Barcelona 2023</Text>
+              <Text>Salon - <i>Who weaves the weavers?</i>, SeoulBound, Seoul, Korea, 2023</Text>
+            </Flex>
+          </Flex>
+        </Flex>
+
+        <Flex direction="row" alignItems="start" justifyContent="space-between" w="100%" p={10} flexWrap="wrap" borderTop="1px solid" borderColor="primary">
+          <Flex direction="column" alignItems="start" w={['100%', null, '33%']} justifyContent="space-between" mr={10}>
+              <Heading color="primary" fontWeight="100" fontSize={['xl', null, '2xl']} mb={5}>Research</Heading>
+              <p>The Open Machine conducts research on the characteristics of extitutional space - the spontaneous orders, open protocols, and plural ontologies of the space outside of administrative institutions. We take in feeds from transchistorical sources, from diverse disciplines, from the more-than-human world and the cutting edge of organization in order to construct images of free association and network improvisation adequate to a post-coercion society.</p>
+          </Flex>
+          <Flex direction="row" alignItems="start" justifyContent="space-between" w="60%" flexWrap="wrap" mt={[5, null, 0]}>
+          <Flex direction="column" alignItems="start" w={['100%', null, '50%']} p={[0, null, 5]}>
+              <Heading fontSize={['md', null, 'lg']} mb={5}>PCVC</Heading>
+              <Text>blurb about research questions and thesis</Text>
+            </Flex>
+            <Flex direction="column" alignItems="start" w={['100%', null, '50%']} p={[0, null, 5]}>
+              <Heading fontSize={['md', null, 'lg']} mb={5}>Hyperactive Public Goods Funding</Heading>
+              <Text>blurb about research questions and thesis</Text>
+            </Flex>
+            <Flex direction="column" alignItems="start" w={['100%', null, '50%']} p={[0, null, 5]}>
+              <Heading fontSize={['md', null, 'lg']} mb={5}>Open Protocols Research Group</Heading>
+              <Text>blurb about research questions and thesis</Text>
+            </Flex>
+            <Flex direction="column" alignItems="start" w={['100%', null, '50%']} p={[0, null, 5]}>
+              <Heading fontSize={['md', null, 'lg']} mb={5}>???</Heading>
+              <Text>blurb about research questions and thesis</Text>
+            </Flex>
+          </Flex>
+        </Flex>
+
+        <Flex direction="row" alignItems="start" justifyContent="space-between" w="100%" p={10} flexWrap="wrap" borderTop="1px solid" borderColor="primary">
+          <Flex direction="column" alignItems="start" w={['100%', null, '33%']} justifyContent="space-between" mr={10}>
+              <Heading color="primary" fontWeight="100" fontSize={['xl', null, '2xl']} mb={5}>Network</Heading>
+              <p>The Open Machine convenes temporary assemblies where ideas meet bodies and something gets made. Salons, workshops, lecture series, unconferences, gatherings. Spaces for interstitial productivity. Events come first. Structures dissolve afterward.</p>
+          </Flex>
+          <Flex direction="column" alignItems="start" justifyContent="space-between" w={['100%', null, '60%']}>
+            <Flex direction="column" gap={3} mt={5}>
+              <Link href="https://allocapital.io" target="_blank"><Text>Allo Capital</Text></Link>
+              <Link href="https://block.science" target="_blank"><Text>Block.science</Text></Link>
+              <Link href="https://daohaus.club" target="_blank"><Text>DAOhaus</Text></Link>
+              <Link href="https://gitcoin.co" target="_blank"><Text>Gitcoin</Text></Link>
+              <Link href="https://hatsprotocol.xyz" target="_blank"><Text>Hats</Text></Link>
+              <Link href="https://hypercerts.org" target="_blank"><Text>Hypercerts</Text></Link>
+              <Link href="https://metacartel.org" target="_blank"><Text>MetaCartel</Text></Link>
+              <Link href="https://metagov.org" target="_blank"><Text>Metagov</Text></Link>
+              <Link href="https://opencivics.co" target="_blank"><Text>Open Civics</Text></Link>
+              <Link href="https://publicnouns.wtf" target="_blank"><Text>Public Nouns</Text></Link>
+              <Link href="https://raidguild.org" target="_blank"><Text>Raid Guild</Text></Link>
+              <Link href="https://law.stanford.edu/codex-the-stanford-center-for-legal-informatics/" target="_blank"><Text>Stanford Codex</Text></Link>
+            </Flex>
+          </Flex>
+        </Flex>
+
       </main>
-      <Box pt={20} id="intro">
-        <Section />
-      </Box>
-      <Box p={12}>
-        <Flex
-          maxW="800px"
-          mx="auto"
-          gap={6}
-          align="center"
-          justify="space-between"
-        >
-          <Text textStyle="h2" as="h2" mb={6}>
-            Open Transmissions
-          </Text>
-          <Link href="/transmissions">View All</Link>
-        </Flex>
-        <Flex maxW="800px" mx="auto" direction="column" gap={6}>
-          {filteredPosts.map((post) => (
-            <TransmissionsPost
-              author={post.author}
-              excerpt={post.excerpt}
-              date={post.date}
-              title={post.title}
-              key={post.slug}
-              slug={post.slug}
-              imagePath={post.imagePath}
-            />
-          ))}
-        </Flex>
-        <Flex maxW="800px" mx="auto" my={12}>
-          <Text as="h2" textStyle="h2">
-            Library
-          </Text>
-        </Flex>
-        <MatterEthLocalism />
-        <MatterInvertedCity />
-        <MatterSubstrates />
-      </Box>
-    </>
+      </>
   )
-}
-
-export async function getStaticProps() {
-  const allPosts = getAllTransmissions([
-    'title',
-    'matter',
-    'slug',
-    'author',
-    'excerpt',
-    'date',
-    'imagePath',
-  ])
-
-  const filteredPosts = allPosts
-    .filter((post) => post.matter.includes('transmissions'))
-    .slice(0, 3)
-
-  return {
-    props: {
-      filteredPosts,
-    },
-  }
 }
