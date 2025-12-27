@@ -334,26 +334,26 @@ export default function Home() {
               </Text>
               <Image src="/assets/gfel25_salon.jpg" alt="GFEL 2025 Salon" width="100%" borderRadius="md"/>
             </Box>
-            <Flex direction={['column', null, 'row']} gap={[4, null, 6]}>
-              <Box flex="1" bg="primary" color="bg" p={6} borderRadius="md">
-                <Text fontSize="11px" fontWeight="500" textTransform="uppercase" letterSpacing="1px" mb={4} opacity={0.6} fontFamily="'Inter', sans-serif">2025</Text>
-                <Flex direction="column" gap={3}>
-                  <Text fontSize="15px">Gathering — <em>Open Protocols Convene</em>, Boulder, Colorado</Text>
-                  <Text fontSize="15px">Salon — <em>Open Protocols Social</em>, Portland, Oregon</Text>
-                  <Text fontSize="15px">Workshop — <em>Polycentric Equity Swap Game</em>, Buenos Aires</Text>
-                  <Text fontSize="15px">Workshop — <em>Assembly in Ethereum</em>, Buenos Aires</Text>
-                  <Text fontSize="15px">Gathering — <em>GFEL II</em>, Boulder, Colorado</Text>
+            <Flex direction={['column', null, 'row']} gap={[3, null, 4]}>
+              <Box flex="1" bg="primary" color="bg" p={4} borderRadius="sm">
+                <Text fontSize="10px" fontWeight="500" textTransform="uppercase" letterSpacing="1px" mb={3} opacity={0.6} fontFamily="'Inter', sans-serif">2025</Text>
+                <Flex direction="column" gap={2}>
+                  <Text fontSize="13px">Gathering — <em>Open Protocols Convene</em>, Boulder, Colorado</Text>
+                  <Text fontSize="13px">Salon — <em>Open Protocols Social</em>, Portland, Oregon</Text>
+                  <Text fontSize="13px">Workshop — <em>Polycentric Equity Swap Game</em>, Buenos Aires</Text>
+                  <Text fontSize="13px">Workshop — <em>Assembly in Ethereum</em>, Buenos Aires</Text>
+                  <Text fontSize="13px">Gathering — <em>GFEL II</em>, Boulder, Colorado</Text>
                 </Flex>
               </Box>
-              <Box flex="1" bg="primary" color="bg" p={6} borderRadius="md">
-                <Text fontSize="11px" fontWeight="500" textTransform="uppercase" letterSpacing="1px" mb={4} opacity={0.6} fontFamily="'Inter', sans-serif">2023–2024</Text>
-                <Flex direction="column" gap={3}>
-                  <Text fontSize="15px">Workshop — <em>Institutions, Extitutions and the Body without Organs</em>, Belgium 2024</Text>
-                  <Text fontSize="15px">Salon — <em>OSS: Open Salon Series</em>, Portland, Oregon 2024</Text>
-                  <Text fontSize="15px">Lecture Series — <em>Local DAO Summer</em>, cyberspace 2024</Text>
-                  <Text fontSize="15px">Gathering — <em>General Forum on Ethereum Localism</em>, Portland 2024</Text>
-                  <Text fontSize="15px">Salon — <em>Cybernetics and Public Goods</em>, MCON 3 Detroit 2023</Text>
-                  <Text fontSize="15px">Salon — <em>Decentralized Independent Publishing</em>, Istanbul 2023</Text>
+              <Box flex="1" bg="primary" color="bg" p={4} borderRadius="sm">
+                <Text fontSize="10px" fontWeight="500" textTransform="uppercase" letterSpacing="1px" mb={3} opacity={0.6} fontFamily="'Inter', sans-serif">2023–2024</Text>
+                <Flex direction="column" gap={2}>
+                  <Text fontSize="13px">Workshop — <em>Institutions, Extitutions and the Body without Organs</em>, Belgium 2024</Text>
+                  <Text fontSize="13px">Salon — <em>OSS: Open Salon Series</em>, Portland, Oregon 2024</Text>
+                  <Text fontSize="13px">Lecture Series — <em>Local DAO Summer</em>, cyberspace 2024</Text>
+                  <Text fontSize="13px">Gathering — <em>General Forum on Ethereum Localism</em>, Portland 2024</Text>
+                  <Text fontSize="13px">Salon — <em>Cybernetics and Public Goods</em>, MCON 3 Detroit 2023</Text>
+                  <Text fontSize="13px">Salon — <em>Decentralized Independent Publishing</em>, Istanbul 2023</Text>
                 </Flex>
               </Box>
             </Flex>
@@ -386,22 +386,22 @@ export default function Home() {
                 The Open Machine conducts research on the characteristics of extitutional space—the spontaneous orders, open protocols, and plural ontologies of the space outside of administrative institutions. We develop frameworks for understanding how coordination happens beyond formal boundaries. Our research bridges theory and practice, feeding directly into the tools and events we produce.
               </Text>
             </Box>
-            <Flex direction={['column', null, 'row']} gap={[4, null, 6]} flexWrap="wrap">
-              <Box w={['100%', null, 'calc(50% - 12px)']} bg="primary" color="bg" p={6} borderRadius="md">
-                <Heading fontSize="18px" mb={3} fontWeight="600">PCVC</Heading>
-                <Text fontSize="15px" opacity={0.85}>Research into polycentric value creation and the mechanisms of distributed coordination.</Text>
+            <Flex direction={['column', null, 'row']} gap={[3, null, 4]} flexWrap="wrap">
+              <Box w={['100%', null, 'calc(50% - 8px)']} bg="primary" color="bg" p={4} borderRadius="sm">
+                <Heading fontSize="15px" mb={2} fontWeight="600">PCVC</Heading>
+                <Text fontSize="13px" opacity={0.85}>Research into polycentric value creation and the mechanisms of distributed coordination.</Text>
               </Box>
-              <Box w={['100%', null, 'calc(50% - 12px)']} bg="primary" color="bg" p={6} borderRadius="md">
-                <Heading fontSize="18px" mb={3} fontWeight="600">Hyperactive Public Goods Funding</Heading>
-                <Text fontSize="15px" opacity={0.85}>Exploring novel mechanisms for sustaining commons and public goods in networked environments.</Text>
+              <Box w={['100%', null, 'calc(50% - 8px)']} bg="primary" color="bg" p={4} borderRadius="sm">
+                <Heading fontSize="15px" mb={2} fontWeight="600">Hyperactive Public Goods Funding</Heading>
+                <Text fontSize="13px" opacity={0.85}>Exploring novel mechanisms for sustaining commons and public goods in networked environments.</Text>
               </Box>
-              <Box w={['100%', null, 'calc(50% - 12px)']} bg="primary" color="bg" p={6} borderRadius="md">
-                <Heading fontSize="18px" mb={3} fontWeight="600">Open Protocols Research Group</Heading>
-                <Text fontSize="15px" opacity={0.85}>A collaborative inquiry into the social and technical dimensions of protocol-based coordination.</Text>
+              <Box w={['100%', null, 'calc(50% - 8px)']} bg="primary" color="bg" p={4} borderRadius="sm">
+                <Heading fontSize="15px" mb={2} fontWeight="600">Open Protocols Research Group</Heading>
+                <Text fontSize="13px" opacity={0.85}>A collaborative inquiry into the social and technical dimensions of protocol-based coordination.</Text>
               </Box>
-              <Box w={['100%', null, 'calc(50% - 12px)']} bg="primary" color="bg" p={6} borderRadius="md">
-                <Heading fontSize="18px" mb={3} fontWeight="600">Intensive Protocols</Heading>
-                <Text fontSize="15px" opacity={0.85}>Investigating the affective and embodied dimensions of protocol adoption and resistance.</Text>
+              <Box w={['100%', null, 'calc(50% - 8px)']} bg="primary" color="bg" p={4} borderRadius="sm">
+                <Heading fontSize="15px" mb={2} fontWeight="600">Intensive Protocols</Heading>
+                <Text fontSize="13px" opacity={0.85}>Investigating the affective and embodied dimensions of protocol adoption and resistance.</Text>
               </Box>
             </Flex>
           </Box>
