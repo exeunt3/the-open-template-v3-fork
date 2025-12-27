@@ -94,10 +94,10 @@ export default function Home() {
             >
               The Open Machine is a creative studio, zine shop, and organizing body producing media and events at the frontier of coordination.
             </Heading>
-            <Text fontSize={['16px', null, '18px']} lineHeight="1.7" color="primary" opacity={0.85} mb={6}>
+            <Text fontSize="15px" lineHeight="1.7" color="primary" opacity={0.85} mb={6}>
               We publish books, zines, and posters. We convene salons, workshops, and gatherings. We incubate tools and knowledge commons. Everything we make emerges from research and practice woven together. We work from the underground—the informal networks, experimental scenes, and temporary assemblies where new ideas originate. Institutions capture and formalize what the underground creates. We build infrastructure that lets it circulate on its own terms.
             </Text>
-            <Text fontSize={['16px', null, '18px']} lineHeight="1.7" color="primary" opacity={0.85} mb={10}>
+            <Text fontSize="15px" lineHeight="1.7" color="primary" opacity={0.85} mb={10}>
               We culturally negotiate the values of the underground with traditional and emerging technologies—finding ways to preserve what matters while engaging with new tools and systems.
             </Text>
             <Box position="relative">
@@ -142,7 +142,7 @@ export default function Home() {
               </Text>
             </Box>
             <Box flex="1" maxW="600px">
-              <Text fontSize={['16px', null, '18px']} lineHeight="1.7" color="primary" opacity={0.85}>
+              <Text fontSize="15px" lineHeight="1.7" color="primary" opacity={0.85}>
                 The Open Machine publishes artifacts from the frontier—zines, books, posters, booklets. We share information, transmit experience, and document protocol.
               </Text>
             </Box>
@@ -325,7 +325,7 @@ export default function Home() {
           </Box>
           <Box flex="1">
             <Box maxW="600px" mb={10}>
-              <Text fontSize={['16px', null, '18px']} lineHeight="1.7" color="primary" opacity={0.85} mb={6}>
+              <Text fontSize="15px" lineHeight="1.7" color="primary" opacity={0.85} mb={6}>
                 The Open Machine convenes temporary assemblies where ideas meet bodies and something gets made. Salons, workshops, lecture series, unconferences, gatherings.
               </Text>
               <Image src="/assets/gfel25_salon.jpg" alt="GFEL 2025 Salon" width="100%" borderRadius="md"/>
@@ -376,7 +376,7 @@ export default function Home() {
           </Box>
           <Box flex="1">
             <Box maxW="600px" mb={10}>
-              <Text fontSize={['16px', null, '18px']} lineHeight="1.7" color="primary" opacity={0.85}>
+              <Text fontSize="15px" lineHeight="1.7" color="primary" opacity={0.85}>
                 The Open Machine conducts research on the characteristics of extitutional space—the spontaneous orders, open protocols, and plural ontologies of the space outside of administrative institutions.
               </Text>
             </Box>
