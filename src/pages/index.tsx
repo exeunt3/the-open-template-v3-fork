@@ -73,31 +73,26 @@ export default function Home() {
           bg="bg"
         >
           <Box w={['100%', null, '200px']} flexShrink={0} mb={[4, null, 0]}>
-            <Box w="40px" h="1px" bg="primary" opacity={0.3} mb={3} />
             <Text 
-              fontSize="12px" 
-              fontWeight="400" 
-              letterSpacing="2px"
-              color="primary"
-              opacity={0.6}
+              fontSize="17px" 
+              color="blue.600"
             >
-              〈 What We Do 〉
+              What We Do _
             </Text>
           </Box>
           <Box flex="1" maxW="800px">
-            <Heading 
-              as="h2" 
-              fontSize={['24px', null, '32px']} 
-              fontWeight="700" 
-              lineHeight="1.3" 
+            <Text 
+              fontSize="17px" 
+              lineHeight="1.5" 
+              color="blue.600"
               mb={6}
             >
               The Open Machine is a creative studio, zine shop, and organizing body producing media and events at the frontier of coordination.
-            </Heading>
-            <Text fontSize="15px" lineHeight="1.7" color="primary" opacity={0.85} mb={6}>
+            </Text>
+            <Text fontSize="17px" lineHeight="1.5" color="primary" mb={6}>
               We publish books, zines, and posters. We convene salons, workshops, and gatherings. We incubate tools and knowledge commons. Everything we make emerges from research and practice woven together. We work from the underground—the informal networks, experimental scenes, and temporary assemblies where new ideas originate. Institutions capture and formalize what the underground creates. We build infrastructure that lets it circulate on its own terms.
             </Text>
-            <Text fontSize="15px" lineHeight="1.7" color="primary" opacity={0.85} mb={10}>
+            <Text fontSize="17px" lineHeight="1.5" color="primary" mb={10}>
               We culturally negotiate the values of the underground with traditional and emerging technologies—finding ways to preserve what matters while engaging with new tools and systems.
             </Text>
             <Box position="relative">
@@ -130,19 +125,15 @@ export default function Home() {
         <Box w="100%" py={[10, null, 16]} px={[6, null, 10]}>
           <Flex direction={['column', null, 'row']} mb={8}>
             <Box w={['100%', null, '200px']} flexShrink={0} mb={[4, null, 0]}>
-              <Box w="40px" h="1px" bg="primary" opacity={0.3} mb={3} />
               <Text 
-                fontSize="12px" 
-                fontWeight="400" 
-                letterSpacing="2px"
-                color="primary"
-                opacity={0.6}
+                fontSize="17px" 
+                color="blue.600"
               >
-                〈 Media 〉
+                Media _
               </Text>
             </Box>
             <Box flex="1" maxW="600px">
-              <Text fontSize="15px" lineHeight="1.7" color="primary" opacity={0.85}>
+              <Text fontSize="17px" lineHeight="1.5" color="primary">
                 The Open Machine publishes artifacts from the frontier—zines, books, posters, booklets. We share information, transmit experience, and document protocol.
               </Text>
             </Box>
@@ -312,44 +303,40 @@ export default function Home() {
           px={[6, null, 10]}
         >
           <Box w={['100%', null, '200px']} flexShrink={0} mb={[4, null, 0]}>
-            <Box w="40px" h="1px" bg="primary" opacity={0.3} mb={3} />
             <Text 
-              fontSize="12px" 
-              fontWeight="400" 
-              letterSpacing="2px"
-              color="primary"
-              opacity={0.6}
+              fontSize="17px" 
+              color="blue.600"
             >
-              〈 Events 〉
+              Events _
             </Text>
           </Box>
           <Box flex="1">
             <Box maxW="600px" mb={10}>
-              <Text fontSize="15px" lineHeight="1.7" color="primary" opacity={0.85} mb={6}>
+              <Text fontSize="17px" lineHeight="1.5" color="primary" mb={6}>
                 The Open Machine convenes temporary assemblies where ideas meet bodies and something gets made. Salons, workshops, lecture series, unconferences, gatherings.
               </Text>
               <Image src="/assets/gfel25_salon.jpg" alt="GFEL 2025 Salon" width="100%" borderRadius="md"/>
             </Box>
             <Flex direction={['column', null, 'row']} gap={[4, null, 20]}>
               <Box flex="1">
-                <Text fontSize="11px" fontWeight="500" textTransform="uppercase" letterSpacing="1px" mb={4} opacity={0.5}>2025</Text>
+                <Text fontSize="17px" color="blue.600" mb={4}>2025</Text>
                 <Flex direction="column" gap={2}>
-                  <Text fontSize="15px">Gathering — <em>Open Protocols Convene</em>, Boulder, Colorado</Text>
-                  <Text fontSize="15px">Salon — <em>Open Protocols Social</em>, Portland, Oregon</Text>
-                  <Text fontSize="15px">Workshop — <em>Polycentric Equity Swap Game</em>, Buenos Aires</Text>
-                  <Text fontSize="15px">Workshop — <em>Assembly in Ethereum</em>, Buenos Aires</Text>
-                  <Text fontSize="15px">Gathering — <em>GFEL II</em>, Boulder, Colorado</Text>
+                  <Text fontSize="17px" lineHeight="1.5">Gathering — <em>Open Protocols Convene</em>, Boulder, Colorado</Text>
+                  <Text fontSize="17px" lineHeight="1.5">Salon — <em>Open Protocols Social</em>, Portland, Oregon</Text>
+                  <Text fontSize="17px" lineHeight="1.5">Workshop — <em>Polycentric Equity Swap Game</em>, Buenos Aires</Text>
+                  <Text fontSize="17px" lineHeight="1.5">Workshop — <em>Assembly in Ethereum</em>, Buenos Aires</Text>
+                  <Text fontSize="17px" lineHeight="1.5">Gathering — <em>GFEL II</em>, Boulder, Colorado</Text>
                 </Flex>
               </Box>
               <Box flex="1">
-                <Text fontSize="11px" fontWeight="500" textTransform="uppercase" letterSpacing="1px" mb={4} opacity={0.5}>2023–2024</Text>
+                <Text fontSize="17px" color="blue.600" mb={4}>2023–2024</Text>
                 <Flex direction="column" gap={2}>
-                  <Text fontSize="15px">Workshop — <em>Institutions, Extitutions and the Body without Organs</em>, Belgium 2024</Text>
-                  <Text fontSize="15px">Salon — <em>OSS: Open Salon Series</em>, Portland, Oregon 2024</Text>
-                  <Text fontSize="15px">Lecture Series — <em>Local DAO Summer</em>, cyberspace 2024</Text>
-                  <Text fontSize="15px">Gathering — <em>General Forum on Ethereum Localism</em>, Portland 2024</Text>
-                  <Text fontSize="15px">Salon — <em>Cybernetics and Public Goods</em>, MCON 3 Detroit 2023</Text>
-                  <Text fontSize="15px">Salon — <em>Decentralized Independent Publishing</em>, Istanbul 2023</Text>
+                  <Text fontSize="17px" lineHeight="1.5">Workshop — <em>Institutions, Extitutions and the Body without Organs</em>, Belgium 2024</Text>
+                  <Text fontSize="17px" lineHeight="1.5">Salon — <em>OSS: Open Salon Series</em>, Portland, Oregon 2024</Text>
+                  <Text fontSize="17px" lineHeight="1.5">Lecture Series — <em>Local DAO Summer</em>, cyberspace 2024</Text>
+                  <Text fontSize="17px" lineHeight="1.5">Gathering — <em>General Forum on Ethereum Localism</em>, Portland 2024</Text>
+                  <Text fontSize="17px" lineHeight="1.5">Salon — <em>Cybernetics and Public Goods</em>, MCON 3 Detroit 2023</Text>
+                  <Text fontSize="17px" lineHeight="1.5">Salon — <em>Decentralized Independent Publishing</em>, Istanbul 2023</Text>
                 </Flex>
               </Box>
             </Flex>
@@ -363,35 +350,31 @@ export default function Home() {
           px={[6, null, 10]}
         >
           <Box w={['100%', null, '200px']} flexShrink={0} mb={[4, null, 0]}>
-            <Box w="40px" h="1px" bg="primary" opacity={0.3} mb={3} />
             <Text 
-              fontSize="12px" 
-              fontWeight="400" 
-              letterSpacing="2px"
-              color="primary"
-              opacity={0.6}
+              fontSize="17px" 
+              color="blue.600"
             >
-              〈 Research 〉
+              Research _
             </Text>
           </Box>
           <Box flex="1">
             <Box maxW="600px" mb={10}>
-              <Text fontSize="15px" lineHeight="1.7" color="primary" opacity={0.85}>
+              <Text fontSize="17px" lineHeight="1.5" color="primary">
                 The Open Machine conducts research on the characteristics of extitutional space—the spontaneous orders, open protocols, and plural ontologies of the space outside of administrative institutions.
               </Text>
             </Box>
             <Flex direction={['column', null, 'row']} gap={[6, null, 10]} flexWrap="wrap">
               <Box w={['100%', null, 'calc(50% - 20px)']}>
-                <Heading fontSize="20px" mb={3}>PCVC</Heading>
-                <Text fontSize="15px" opacity={0.8}>Research into polycentric value creation and the mechanisms of distributed coordination.</Text>
+                <Text fontSize="17px" mb={2} color="blue.600">PCVC</Text>
+                <Text fontSize="17px" lineHeight="1.5" color="primary">Research into polycentric value creation and the mechanisms of distributed coordination.</Text>
               </Box>
               <Box w={['100%', null, 'calc(50% - 20px)']}>
-                <Heading fontSize="20px" mb={3}>Hyperactive Public Goods Funding</Heading>
-                <Text fontSize="15px" opacity={0.8}>Exploring novel mechanisms for sustaining commons and public goods in networked environments.</Text>
+                <Text fontSize="17px" mb={2} color="blue.600">Hyperactive Public Goods Funding</Text>
+                <Text fontSize="17px" lineHeight="1.5" color="primary">Exploring novel mechanisms for sustaining commons and public goods in networked environments.</Text>
               </Box>
               <Box w={['100%', null, 'calc(50% - 20px)']}>
-                <Heading fontSize="20px" mb={3}>Open Protocols Research Group</Heading>
-                <Text fontSize="15px" opacity={0.8}>A collaborative inquiry into the social and technical dimensions of protocol-based coordination.</Text>
+                <Text fontSize="17px" mb={2} color="blue.600">Open Protocols Research Group</Text>
+                <Text fontSize="17px" lineHeight="1.5" color="primary">A collaborative inquiry into the social and technical dimensions of protocol-based coordination.</Text>
               </Box>
             </Flex>
           </Box>
