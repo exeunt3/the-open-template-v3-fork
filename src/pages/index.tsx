@@ -6,6 +6,7 @@ import {
   Link,
   Text,
   Button,
+  Tooltip,
 } from '@chakra-ui/react'
 import {
   PageMetadata,
@@ -88,20 +89,61 @@ export default function Home() {
             </Text>
           </Box>
           <Box flex="1" maxW="800px">
-            <Heading 
-              as="h2" 
-              fontSize={['20px', null, '26px']} 
-              fontWeight="600" 
-              lineHeight="1.4" 
-              mb={6}
-            >
-              The Open Machine is a creative studio, zine shop, and organizing body producing media and events at the frontier of coordination.
-            </Heading>
-            <Text fontSize="15px" lineHeight="1.7" color="primary" opacity={0.85} mb={6}>
-              We publish books, zines, and posters. We convene salons, workshops, and gatherings. We incubate tools and knowledge commons. Everything we make emerges from research and practice woven together. We work from the underground—the informal networks, experimental scenes, and temporary assemblies where new ideas originate. Institutions capture and formalize what the underground creates. We build infrastructure that lets it circulate on its own terms. Our practice is rooted in the belief that form and content are inseparable.
+            <Text fontSize="15px" lineHeight="1.85" color="primary" opacity={0.85} mb={6}>
+              The Open Machine is a <Box as="span" bg="primary" color="bg" px={1}>creative outpost</Box> for scaling <Box as="span" bg="primary" color="bg" px={1}>underground values</Box> alongside, within and through emerging technologies. We produce <Box as="span" bg="primary" color="bg" px={1}>media</Box> & <Box as="span" bg="primary" color="bg" px={1}>events</Box> and stage <Box as="span" bg="primary" color="bg" px={1}>research</Box> on the actualization of extitutional social forms in the twenty first century.
             </Text>
-            <Text fontSize="15px" lineHeight="1.7" color="primary" opacity={0.85} mb={10}>
-              We culturally negotiate the values of the underground with traditional and emerging technologies—finding ways to preserve what matters while engaging with new tools and systems.
+            <Box w="40px" h="1px" bg="primary" opacity={0.2} my={8} />
+            <Text fontSize="15px" lineHeight="1.85" color="primary" opacity={0.85} mb={6}>
+              Institutions (in their dominant form as centralized, administrative bureaucracies) are known to concentrate power, homogenize culture, enshittify technology, obscure empirical conditions in favor of party lines and, worse of all, generate cultures of complacency where direct empirical engagement with reality is sidelined for the <Box as="span" bg="primary" color="bg" px={1}>opiate coziness</Box> of a protected inside.
+            </Text>
+            <Text fontSize="15px" lineHeight="1.85" color="primary" opacity={0.85} mb={6}>
+              That structural logic may be dominant, but it's far from the only means of organizing bodies.
+            </Text>
+            <Text fontSize="15px" lineHeight="1.85" color="primary" opacity={0.85} mb={6}>
+              The Open Machine is premised on an alternative mode of social organization, a semi-formal set of values and operational principles we refer to as the{' '}
+              <Tooltip 
+                label="This refers to a collective of actors with no shared identity or structure beyond the open protocols that synchronize them in acts of discovery and interparticipation. See 'Sketches for a Theory of the Protocol Underground' for the origins of this term."
+                bg="white"
+                color="black"
+                fontSize="13px"
+                p={3}
+                maxW="320px"
+                hasArrow
+                placement="top"
+              >
+                <Box as="span" bg="primary" color="bg" px={1} cursor="help" borderBottom="1px dashed" borderColor="bg">protocol underground</Box>
+              </Tooltip>.
+            </Text>
+            <Text fontSize="15px" lineHeight="1.85" color="primary" opacity={0.85} mb={6}>
+              In an age of ascendant{' '}
+              <Tooltip 
+                label="See Bogna Konior 'Existential Technologies' — existentialtech.antikythera.org"
+                bg="white"
+                color="black"
+                fontSize="13px"
+                p={3}
+                maxW="320px"
+                hasArrow
+                placement="top"
+              >
+                <Box as="span" bg="primary" color="bg" px={1} cursor="help" borderBottom="1px dashed" borderColor="bg">existential technologies</Box>
+              </Tooltip>, the emergent principles of the <Box as="span" bg="primary" color="bg" px={1}>underground</Box> are in a position to scale to conspicuous dominance as cynical actors and obsolete formulas fall beneath the compounding increase in degrees of freedom the new forms provide.
+            </Text>
+            <Text fontSize="15px" lineHeight="1.85" color="primary" opacity={0.85} mb={10}>
+              The Open Machine is here to midwife that process. Our work is to discover <Box as="span" bg="primary" color="bg" px={1}>alignment</Box> and build <Box as="span" bg="primary" color="bg" px={1}>coalitions</Box> (and lineages) around key underground values. This also means recognizing the <Box as="span" bg="primary" color="bg" px={1}>open</Box>, <Box as="span" bg="primary" color="bg" px={1}>public</Box> and{' '}
+              <Tooltip 
+                label="This final claim is a nod to the broader underground sense that intelligence itself is a network phenomena, multiparty discovery in non-coercive process."
+                bg="white"
+                color="black"
+                fontSize="13px"
+                p={3}
+                maxW="320px"
+                hasArrow
+                placement="top"
+              >
+                <Box as="span" bg="primary" color="bg" px={1} cursor="help" borderBottom="1px dashed" borderColor="bg">horizontally determined</Box>
+              </Tooltip>{' '}
+              nature of the values themselves.
             </Text>
             <Box position="relative">
               <Image 
