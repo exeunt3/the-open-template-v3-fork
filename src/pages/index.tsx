@@ -85,7 +85,7 @@ export default function Home() {
               color="primary"
               fontFamily="'Inter', sans-serif"
             >
-              〈 What We Do 〉
+              〈 <Box as="span" bg="primary" color="bg" px={1}>What We Do</Box> 〉
             </Text>
           </Box>
           <Box flex="1" maxW="800px">
@@ -165,7 +165,7 @@ export default function Home() {
               color="primary"
               fontFamily="'Inter', sans-serif"
             >
-              〈 Values 〉
+              〈 <Box as="span" bg="primary" color="bg" px={1}>Values</Box> 〉
             </Text>
           </Box>
           <Box flex="1" maxW="800px">
@@ -244,7 +244,7 @@ export default function Home() {
                 color="primary"
                 fontFamily="'Inter', sans-serif"
               >
-                〈 Media 〉
+                〈 <Box as="span" bg="primary" color="bg" px={1}>Media</Box> 〉
               </Text>
             </Box>
             <Box flex="1" maxW="600px">
@@ -428,7 +428,7 @@ export default function Home() {
               color="primary"
               fontFamily="'Inter', sans-serif"
             >
-              〈 Events 〉
+              〈 <Box as="span" bg="primary" color="bg" px={1}>Events</Box> 〉
             </Text>
           </Box>
           <Box flex="1">
@@ -544,7 +544,7 @@ export default function Home() {
               color="primary"
               fontFamily="'Inter', sans-serif"
             >
-              〈 Research 〉
+              〈 <Box as="span" bg="primary" color="bg" px={1}>Research</Box> 〉
             </Text>
           </Box>
           <Box flex="1">
