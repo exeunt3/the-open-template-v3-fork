@@ -89,10 +89,9 @@ export default function Home() {
             </Text>
           </Box>
           <Box flex="1" maxW="800px">
-            <Text fontSize="15px" lineHeight="1.85" color="primary" opacity={0.85} mb={6}>
+            <Text fontSize="17px" lineHeight="1.85" color="primary" opacity={0.85} mb={8}>
               The Open Machine is a creative outpost for scaling <Link href="#values"><Box as="span" bg="primary" color="bg" px={1} cursor="pointer" _hover={{ opacity: 0.8 }}>underground values</Box></Link> alongside, within and through emerging technologies. We produce media & events and stage research on the actualization of extitutional social forms in the twenty first century.
             </Text>
-            <Box w="40px" h="1px" bg="primary" opacity={0.2} my={8} />
             <Text fontSize="15px" lineHeight="1.85" color="primary" opacity={0.85} mb={6}>
               Institutions (in their dominant form as centralized, administrative bureaucracies) are known to concentrate power, homogenize culture, enshittify technology, obscure empirical conditions in favor of party lines and, worse of all, generate cultures of complacency where direct empirical engagement with reality is sidelined for the opiate coziness of a protected inside.
             </Text>
@@ -229,7 +228,7 @@ export default function Home() {
               The underground is a recessive organism, resisting formalization or categorization even as it generates abundant protocols that depend on both of those tactics to persist. Nonetheless, a meta-politics or meta-ethics of this dynamic, changing and process-first movement is useful to orient ourselves in the landscape of emerging technology.
             </Text>
             <Text fontSize="15px" lineHeight="1.85" color="primary" opacity={0.85}>
-              We generate this formal account not in order to enclose the underground, but because we our confident in our position that it cannot be enclosed.
+              We generate this formal account not in order to enclose the underground, but because we our confident in our position that <em>it cannot be enclosed</em>.
             </Text>
           </Box>
         </Flex>
@@ -250,7 +249,7 @@ export default function Home() {
             </Box>
             <Box flex="1" maxW="600px">
               <Text fontSize="15px" lineHeight="1.7" color="primary" opacity={0.85}>
-                The Open Machine publishes artifacts from the frontier—zines, books, posters, booklets. We share information, transmit experience, and document protocol. Each publication is designed as an object with its own material logic, meant to circulate through networks both digital and physical.
+                Open Machine media takes the form of zines, books, posters, and other web content. All work is licensed Creative Commons. In some cases, our work is commissioned by align actors in technology or the academic space.
               </Text>
             </Box>
           </Flex>
@@ -435,7 +434,19 @@ export default function Home() {
           <Box flex="1">
             <Box maxW="600px">
               <Text fontSize="15px" lineHeight="1.7" color="primary" opacity={0.85}>
-                The Open Machine convenes temporary assemblies where ideas meet bodies and something gets made. Salons, workshops, lecture series, unconferences, gatherings. We believe that ideas need space to unfold in real time, among people who can challenge and extend them. Our events create the conditions for collective sense-making.
+                To the end of bringing underground values and strategies to the emerging technology space, and vice versa, The Open Machine has produced or participated in salons, workshops, unconferences, meetups, and the rare{' '}
+                <Tooltip 
+                  label="We have shunned the latter whenever possible in order to emphasize events optimized for emergence, especially w/r/t tran-sector or -disciplinary coalition, novel or complex emergent subjectivities, etc."
+                  bg="white"
+                  color="black"
+                  fontSize="13px"
+                  p={3}
+                  maxW="320px"
+                  hasArrow
+                  placement="top"
+                >
+                  <Box as="span" bg="primary" color="bg" px={1} cursor="help" borderBottom="1px dashed" borderColor="bg">lecture</Box>
+                </Tooltip>.
               </Text>
             </Box>
           </Box>
@@ -539,7 +550,19 @@ export default function Home() {
           <Box flex="1">
             <Box maxW="600px" mb={10}>
               <Text fontSize="15px" lineHeight="1.7" color="primary" opacity={0.85}>
-                The Open Machine conducts research on the characteristics of extitutional space—the spontaneous orders, open protocols, and plural ontologies of the space outside of administrative institutions. We develop frameworks for understanding how coordination happens beyond formal boundaries. Our research bridges theory and practice, feeding directly into the tools and events we produce.
+                The Open Machine conducts research on the diverse elaborations of the protocol underground - the spontaneous orders, open protocols, and plural ontologies of the space outside of administrative institutions - and its clashes with the emerging face of social capture, enclosure and control. As an{' '}
+                <Tooltip 
+                  label="Extitutions are small, often ephemeral organizational bodies that use the benefits of institutional legibility to secure, protect and formalize the open empiricism of protocol undergrounds. The name was chosen to emphasize that they are discrete, atomic counterparts to the field-like and process forward phenomena of extitutional dynamics. Extitutions generally serve two roles: a) bundling technical protocols with open cultural values to shield them from capture, b) erecting or facilitating temporary autonomous zones to aid the crystallization of those values. They can be thought of as institutional avatars of protocol undergrounds, strategically deployed to fill power vacuums and keep institutional capture at bay. This often means taking on a trickster character, making deliberately disingenuous and playful use of institutional structures, running distract while the extitutional networks they serve remain in a state of illegibility."
+                  bg="white"
+                  color="black"
+                  fontSize="13px"
+                  p={3}
+                  maxW="320px"
+                  hasArrow
+                  placement="top"
+                >
+                  <Box as="span" bg="primary" color="bg" px={1} cursor="help" borderBottom="1px dashed" borderColor="bg">extitution</Box>
+                </Tooltip>, our goal is to produce practical, materially grounded knowledge-sets that might evolve into open protocols adequate to the new technological landscape.
               </Text>
             </Box>
             <Flex direction={['column', null, 'row']} gap={[3, null, 4]} flexWrap="wrap">
