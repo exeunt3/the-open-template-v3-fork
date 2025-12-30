@@ -1,8 +1,9 @@
 import React from 'react'
-import { Flex, Link, Heading, HStack, Text } from '@chakra-ui/react'
+import { Flex, Link, Heading, HStack, Box } from '@chakra-ui/react'
 
 const navItems = [
   { label: 'What We Do', href: '#what-we-do' },
+  { label: 'Values', href: '#values' },
   { label: 'Media', href: '#media' },
   { label: 'Events', href: '#events' },
   { label: 'Research', href: '#research' },
@@ -44,12 +45,12 @@ export const Header = () => {
             fontSize="12px"
             fontWeight="400"
             letterSpacing="1px"
-            color="primary"
-            opacity={0.7}
-            _hover={{ opacity: 1, textDecoration: 'none' }}
+            _hover={{ opacity: 0.8, textDecoration: 'none' }}
             transition="opacity 0.2s ease"
           >
-            {item.label}
+            <Box as="span" bg="primary" color="bg" px={2} py={1}>
+              {item.label}
+            </Box>
           </Link>
         ))}
       </HStack>
