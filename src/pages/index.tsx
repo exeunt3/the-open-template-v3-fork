@@ -90,11 +90,11 @@ export default function Home() {
           </Box>
           <Box flex="1" maxW="800px">
             <Text fontSize="15px" lineHeight="1.85" color="primary" opacity={0.85} mb={6}>
-              The Open Machine is a <Box as="span" bg="primary" color="bg" px={1}>creative outpost</Box> for scaling <Box as="span" bg="primary" color="bg" px={1}>underground values</Box> alongside, within and through emerging technologies. We produce <Box as="span" bg="primary" color="bg" px={1}>media</Box> & <Box as="span" bg="primary" color="bg" px={1}>events</Box> and stage <Box as="span" bg="primary" color="bg" px={1}>research</Box> on the actualization of extitutional social forms in the twenty first century.
+              The Open Machine is a creative outpost for scaling <Link href="#values"><Box as="span" bg="primary" color="bg" px={1} cursor="pointer" _hover={{ opacity: 0.8 }}>underground values</Box></Link> alongside, within and through emerging technologies. We produce media & events and stage research on the actualization of extitutional social forms in the twenty first century.
             </Text>
             <Box w="40px" h="1px" bg="primary" opacity={0.2} my={8} />
             <Text fontSize="15px" lineHeight="1.85" color="primary" opacity={0.85} mb={6}>
-              Institutions (in their dominant form as centralized, administrative bureaucracies) are known to concentrate power, homogenize culture, enshittify technology, obscure empirical conditions in favor of party lines and, worse of all, generate cultures of complacency where direct empirical engagement with reality is sidelined for the <Box as="span" bg="primary" color="bg" px={1}>opiate coziness</Box> of a protected inside.
+              Institutions (in their dominant form as centralized, administrative bureaucracies) are known to concentrate power, homogenize culture, enshittify technology, obscure empirical conditions in favor of party lines and, worse of all, generate cultures of complacency where direct empirical engagement with reality is sidelined for the opiate coziness of a protected inside.
             </Text>
             <Text fontSize="15px" lineHeight="1.85" color="primary" opacity={0.85} mb={6}>
               That structural logic may be dominant, but it's far from the only means of organizing bodies.
@@ -127,10 +127,10 @@ export default function Home() {
                 placement="top"
               >
                 <Box as="span" bg="primary" color="bg" px={1} cursor="help" borderBottom="1px dashed" borderColor="bg">existential technologies</Box>
-              </Tooltip>, the emergent principles of the <Box as="span" bg="primary" color="bg" px={1}>underground</Box> are in a position to scale to conspicuous dominance as cynical actors and obsolete formulas fall beneath the compounding increase in degrees of freedom the new forms provide.
+              </Tooltip>, the emergent principles of the underground are in a position to scale to conspicuous dominance as cynical actors and obsolete formulas fall beneath the compounding increase in degrees of freedom the new forms provide.
             </Text>
             <Text fontSize="15px" lineHeight="1.85" color="primary" opacity={0.85} mb={10}>
-              The Open Machine is here to midwife that process. Our work is to discover <Box as="span" bg="primary" color="bg" px={1}>alignment</Box> and build <Box as="span" bg="primary" color="bg" px={1}>coalitions</Box> (and lineages) around key underground values. This also means recognizing the <Box as="span" bg="primary" color="bg" px={1}>open</Box>, <Box as="span" bg="primary" color="bg" px={1}>public</Box> and{' '}
+              The Open Machine is here to midwife that process. Our work is to discover alignment and build coalitions (and lineages) around key underground values. This also means recognizing the open, public and{' '}
               <Tooltip 
                 label="This final claim is a nod to the broader underground sense that intelligence itself is a network phenomena, multiparty discovery in non-coercive process."
                 bg="white"
