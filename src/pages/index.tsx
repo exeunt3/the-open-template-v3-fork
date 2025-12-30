@@ -181,36 +181,38 @@ export default function Home() {
                 maxW="700px"
               />
             </Box>
-            <Box mb={8}>
-              <Heading as="h3" fontSize="17px" fontWeight="600" mb={2}>High Agency:</Heading>
-              <Text fontSize="15px" lineHeight="1.85" color="primary" opacity={0.85}>
-                The capacity and willingness to act decisively in conditions of uncertainty. High agency actors initiate rather than wait, prototype rather than plan, and take responsibility for outcomes rather than deferring to institutional authority.
-              </Text>
-            </Box>
-            <Box mb={8}>
-              <Heading as="h3" fontSize="17px" fontWeight="600" mb={2}>Open Aesthetic:</Heading>
-              <Text fontSize="15px" lineHeight="1.85" color="primary" opacity={0.85}>
-                A commitment to transparency, accessibility, and the free circulation of cultural forms. Open aesthetic practices resist enclosure and proprietary capture, favoring commons-based creation and permissionless participation.
-              </Text>
-            </Box>
-            <Box mb={8}>
-              <Heading as="h3" fontSize="17px" fontWeight="600" mb={2}>Consent Forward:</Heading>
-              <Text fontSize="15px" lineHeight="1.85" color="primary" opacity={0.85}>
-                Prioritizing explicit, ongoing consent as the foundation of all coordination. Consent-forward systems reject coercion, manipulation, and hidden influence, building legitimacy through voluntary participation and mutual agreement.
-              </Text>
-            </Box>
-            <Box mb={8}>
-              <Heading as="h3" fontSize="17px" fontWeight="600" mb={2}>Process Oriented:</Heading>
-              <Text fontSize="15px" lineHeight="1.85" color="primary" opacity={0.85}>
-                Valuing the quality of the journey over the destination. Process-oriented practices understand that how we do things shapes what we become, and that emergent outcomes often exceed predetermined goals.
-              </Text>
-            </Box>
-            <Box mb={10}>
-              <Heading as="h3" fontSize="17px" fontWeight="600" mb={2}>(Open Protocolized):</Heading>
-              <Text fontSize="15px" lineHeight="1.85" color="primary" opacity={0.85}>
-                The operational principle that binds the others together. Open protocols enable coordination without hierarchy, synchronization without central authority, and persistence without institutional capture.
-              </Text>
-            </Box>
+            <Flex direction={['column', null, 'row']} gap={[3, null, 4]} flexWrap="wrap" mb={10}>
+              <Box w={['100%', null, 'calc(50% - 8px)']} border="1px solid" borderColor="primary" p={4} borderRadius="sm">
+                <Heading as="h3" fontSize="15px" fontWeight="600" mb={2}>High Agency</Heading>
+                <Text fontSize="13px" opacity={0.85}>
+                  The capacity and willingness to act decisively in conditions of uncertainty. High agency actors initiate rather than wait, prototype rather than plan, and take responsibility for outcomes rather than deferring to institutional authority.
+                </Text>
+              </Box>
+              <Box w={['100%', null, 'calc(50% - 8px)']} border="1px solid" borderColor="primary" p={4} borderRadius="sm">
+                <Heading as="h3" fontSize="15px" fontWeight="600" mb={2}>Open Aesthetic</Heading>
+                <Text fontSize="13px" opacity={0.85}>
+                  A commitment to transparency, accessibility, and the free circulation of cultural forms. Open aesthetic practices resist enclosure and proprietary capture, favoring commons-based creation and permissionless participation.
+                </Text>
+              </Box>
+              <Box w={['100%', null, 'calc(50% - 8px)']} border="1px solid" borderColor="primary" p={4} borderRadius="sm">
+                <Heading as="h3" fontSize="15px" fontWeight="600" mb={2}>Consent Forward</Heading>
+                <Text fontSize="13px" opacity={0.85}>
+                  Prioritizing explicit, ongoing consent as the foundation of all coordination. Consent-forward systems reject coercion, manipulation, and hidden influence, building legitimacy through voluntary participation and mutual agreement.
+                </Text>
+              </Box>
+              <Box w={['100%', null, 'calc(50% - 8px)']} border="1px solid" borderColor="primary" p={4} borderRadius="sm">
+                <Heading as="h3" fontSize="15px" fontWeight="600" mb={2}>Process Oriented</Heading>
+                <Text fontSize="13px" opacity={0.85}>
+                  Valuing the quality of the journey over the destination. Process-oriented practices understand that how we do things shapes what we become, and that emergent outcomes often exceed predetermined goals.
+                </Text>
+              </Box>
+              <Box w="100%" border="1px solid" borderColor="primary" p={4} borderRadius="sm">
+                <Heading as="h3" fontSize="15px" fontWeight="600" mb={2}>(Open Protocolized)</Heading>
+                <Text fontSize="13px" opacity={0.85}>
+                  The operational principle that binds the others together. Open protocols enable coordination without hierarchy, synchronization without central authority, and persistence without institutional capture.
+                </Text>
+              </Box>
+            </Flex>
             <Text fontSize="15px" lineHeight="1.85" color="primary" opacity={0.85} mb={6}>
               The underground is a recessive organism, resisting formalization or categorization even as it generates abundant protocols that depend on both of those tactics to persist. Nonetheless, a meta-politics or meta-ethics of this dynamic, changing and process-first movement is useful to orient ourselves in the landscape of emerging technology.
             </Text>
