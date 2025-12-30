@@ -89,9 +89,11 @@ export default function Home() {
             </Text>
           </Box>
           <Box flex="1" maxW="800px">
-            <Text fontSize="17px" lineHeight="1.85" color="primary" opacity={0.85} mb={8}>
-              The Open Machine is a creative outpost for scaling <Link href="#values"><Box as="span" bg="#e8e8e8" color="bg" px={1} cursor="pointer" _hover={{ opacity: 0.8 }}>underground values</Box></Link> alongside, within and through emerging technologies. We produce media & events and stage research on the actualization of extitutional social forms in the twenty first century.
-            </Text>
+            <Box bg="#1a1a1a" p={4} borderRadius="md" mb={8}>
+              <Text fontSize="17px" lineHeight="1.85" color="primary" fontWeight="600" fontFamily="'Inter', sans-serif">
+                The Open Machine is a creative outpost for scaling <Link href="#values"><Box as="span" bg="#e8e8e8" color="bg" px={1} cursor="pointer" _hover={{ opacity: 0.8 }}>underground values</Box></Link> alongside, within and through emerging technologies. We produce media & events and stage research on the actualization of extitutional social forms in the twenty first century.
+              </Text>
+            </Box>
             <Text fontSize="15px" lineHeight="1.85" color="primary" opacity={0.85} mb={6}>
               Institutions (in their dominant form as centralized, administrative bureaucracies) are known to concentrate power, homogenize culture, enshittify technology, obscure empirical conditions in favor of party lines and, worse of all, generate cultures of complacency where direct empirical engagement with reality is sidelined for the opiate coziness of a protected inside.
             </Text>
