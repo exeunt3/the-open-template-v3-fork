@@ -89,16 +89,11 @@ export default function Home() {
             </Text>
           </Box>
           <Box flex="1" maxW="800px">
-            <Box bg="#1a1a1a" p={4} borderRadius="md" mb={8}>
-              <Text fontSize="17px" lineHeight="1.85" color="primary" fontWeight="600" fontFamily="'Inter', sans-serif">
-                The Open Machine is a creative outpost for scaling <Link href="#values"><Box as="span" bg="#e8e8e8" color="bg" px={1} cursor="pointer" _hover={{ opacity: 0.8 }}>underground values</Box></Link> alongside, within and through emerging technologies. We produce media & events and stage research on the actualization of extitutional social forms in the twenty first century.
-              </Text>
-            </Box>
-            <Text fontSize="15px" lineHeight="1.85" color="primary" opacity={0.85} mb={6}>
-              Institutions (in their dominant form as centralized, administrative bureaucracies) are known to concentrate power, homogenize culture, enshittify technology, obscure empirical conditions in favor of party lines and, worse of all, generate cultures of complacency where direct empirical engagement with reality is sidelined for the opiate coziness of a protected inside.
+            <Text fontSize="17px" lineHeight="1.85" color="primary" fontWeight="600" fontFamily="'Inter', sans-serif" mb={8}>
+              The Open Machine is a creative outpost for scaling <Link href="#values"><Box as="span" bg="#e8e8e8" color="bg" px={1} cursor="pointer" _hover={{ opacity: 0.8 }}>underground values</Box></Link> alongside, within and through emerging technologies. We produce media & events and stage research on the actualization of extitutional social forms in the twenty first century.
             </Text>
             <Text fontSize="15px" lineHeight="1.85" color="primary" opacity={0.85} mb={6}>
-              That structural logic may be dominant, but it's far from the only means of organizing bodies.
+              Institutions (in their dominant form as centralized, administrative bureaucracies) are known to concentrate power, homogenize culture, enshittify technology, obscure empirical conditions in favor of party lines and, worse of all, generate cultures of complacency where direct empirical engagement with reality is sidelined for the opiate coziness of a protected inside.
             </Text>
             <Text fontSize="15px" lineHeight="1.85" color="primary" opacity={0.85} mb={6}>
               The Open Machine is premised on an alternative mode of social organization, a semi-formal set of values and operational principles we refer to as the{' '}
