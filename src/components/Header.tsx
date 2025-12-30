@@ -3,10 +3,10 @@ import { Flex, Link, Heading, HStack, Box } from '@chakra-ui/react'
 
 const navItems = [
   { label: 'What We Do', href: '#what-we-do' },
-  { label: 'Values', href: '#values' },
   { label: 'Media', href: '#media' },
   { label: 'Events', href: '#events' },
   { label: 'Research', href: '#research' },
+  { label: 'Values', href: '#values' },
 ]
 
 export const Header = () => {

@@ -68,10 +68,10 @@ export const Footer = () => {
           </Text>
           <VStack align="start" spacing={2}>
             <Link href="#what-we-do" fontSize="14px" color="primary" opacity={0.7} _hover={{ opacity: 1 }}>What We Do</Link>
-            <Link href="#values" fontSize="14px" color="primary" opacity={0.7} _hover={{ opacity: 1 }}>Values</Link>
             <Link href="#media" fontSize="14px" color="primary" opacity={0.7} _hover={{ opacity: 1 }}>Media</Link>
             <Link href="#events" fontSize="14px" color="primary" opacity={0.7} _hover={{ opacity: 1 }}>Events</Link>
             <Link href="#research" fontSize="14px" color="primary" opacity={0.7} _hover={{ opacity: 1 }}>Research</Link>
+            <Link href="#values" fontSize="14px" color="primary" opacity={0.7} _hover={{ opacity: 1 }}>Values</Link>
           </VStack>
         </Box>
 

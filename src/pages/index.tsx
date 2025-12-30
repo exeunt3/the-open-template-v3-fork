@@ -147,92 +147,6 @@ export default function Home() {
           </Box>
         </Flex>
 
-        <Flex 
-          id="values"
-          direction={['column', null, 'row']} 
-          w="100%" 
-          py={[10, null, 20]} 
-          px={[6, null, 10]}
-          bg="bg"
-          scrollMarginTop="100px"
-        >
-          <Box w={['100%', null, '200px']} flexShrink={0} mb={[4, null, 0]}>
-            <Box w="40px" h="1px" bg="primary" opacity={0.3} mb={3} />
-            <Text 
-              fontSize="14px" 
-              fontWeight="500" 
-              letterSpacing="2px"
-              color="primary"
-              fontFamily="'Inter', sans-serif"
-            >
-              〈 <Box as="span" bg="#e8e8e8" color="bg" px={1}>Values</Box> 〉
-            </Text>
-          </Box>
-          <Box flex="1" maxW="800px">
-            <Text fontSize="15px" lineHeight="1.85" color="primary" opacity={0.85} mb={8}>
-              Our engagement with the archive and ethnographic study of underground communities alerted us to five principles (or four key values + one major operational principle) that animate the underground. They are as follows:
-            </Text>
-            <Box position="relative" mb={10}>
-              <Image 
-                src="/assets/Frame_1-4_1766814770591.png" 
-                alt="Four core underground values plus one formal quality" 
-                w="100%"
-                maxW="700px"
-              />
-            </Box>
-            <Flex direction={['column', null, 'row']} gap={[3, null, 4]} flexWrap="wrap" mb={10}>
-              <Box w={['100%', null, 'calc(50% - 8px)']} bg="#1a1a1a" p={4} borderRadius="md">
-                <Heading as="h3" fontSize="15px" fontWeight="600" mb={2}>High Agency</Heading>
-                <Text fontSize="13px" opacity={0.85}>
-                  Participants actively shape situations, infrastructures, and outcomes through situated and emergent decision-making. Agency circulates rather than concentrates, expressed through improvisation, responsibility, and the capacity to act without delegated authority.
-                </Text>
-              </Box>
-              <Box w={['100%', null, 'calc(50% - 8px)']} bg="#1a1a1a" p={4} borderRadius="md">
-                <Heading as="h3" fontSize="15px" fontWeight="600" mb={2}>Open Aesthetic</Heading>
-                <Text fontSize="13px" opacity={0.85}>
-                  Aesthetic coherence is dynamic, arising and changing with the gestalt of the network. Subjection to an aesthetic condition is forsaken for a challenge to participate and codetermine a{' '}
-                  <Tooltip 
-                    label="Distinguished from a spectacle, which requires spectators, a performance is a deliberate cultivation of a vibe (or what Deleuze & Guattari would call a 'plateau') optimized for luring in new influences or affects."
-                    bg="white"
-                    color="black"
-                    fontSize="13px"
-                    p={3}
-                    maxW="320px"
-                    hasArrow
-                    placement="top"
-                  >
-                    <Box as="span" bg="#e8e8e8" color="bg" px={1} cursor="help" borderBottom="1px dashed" borderColor="bg">performance</Box>
-                  </Tooltip>.
-                </Text>
-              </Box>
-              <Box w={['100%', null, 'calc(50% - 8px)']} bg="#1a1a1a" p={4} borderRadius="md">
-                <Heading as="h3" fontSize="15px" fontWeight="600" mb={2}>Consent Forward</Heading>
-                <Text fontSize="13px" opacity={0.85}>
-                  Coordination is grounded in explicit, situated agreements that are continuously renegotiated. Boundaries, roles, and intensities remain legible to participants, enabling trust, experimentation, and mutual care under conditions of risk and transformation.
-                </Text>
-              </Box>
-              <Box w={['100%', null, 'calc(50% - 8px)']} bg="#1a1a1a" p={4} borderRadius="md">
-                <Heading as="h3" fontSize="15px" fontWeight="600" mb={2}>Process Oriented</Heading>
-                <Text fontSize="13px" opacity={0.85}>
-                  Attention is directed toward unfolding, qualitative dynamics rather than quantitative, static outcomes. This means emphasis on intensive experience or "qualia" - affect, epiphany, synchronicity, the nondual, and most importantly the experience of dissolution into larger subjectivities that may be determined by social, material, technological dynamics or (more likely) all of the above.
-                </Text>
-              </Box>
-              <Box w="100%" bg="#1a1a1a" p={4} borderRadius="md">
-                <Heading as="h3" fontSize="15px" fontWeight="600" mb={2}>(Open Protocolized)</Heading>
-                <Text fontSize="13px" opacity={0.85}>
-                  Practices crystallize into reusable patterns through a kind of natural selection in the "cold exterior" of the extitutional realm, where practical empiricism and novelty-infatuation reign. Weathered by the exterior, open protocols develop an acute, open empiricism, manifested as (a) availability to appropriation, forking, recombination to whatever material ends, & (b) resistance and circumvention to any system that compromises (a), and (c) compact and compelling enough form to facilitate free & open circulation.
-                </Text>
-              </Box>
-            </Flex>
-            <Text fontSize="15px" lineHeight="1.85" color="primary" opacity={0.85} mb={6}>
-              The underground is a recessive organism, resisting formalization or categorization even as it generates abundant protocols that depend on both of those tactics to persist. Nonetheless, a meta-politics or meta-ethics of this dynamic, changing and process-first movement is useful to orient ourselves in the landscape of emerging technology.
-            </Text>
-            <Text fontSize="15px" lineHeight="1.85" color="primary" opacity={0.85}>
-              We generate this formal account not in order to enclose the underground, but because we our confident in our position that <em>it cannot be enclosed</em>.
-            </Text>
-          </Box>
-        </Flex>
-
         <Box id="media" w="100%" py={[10, null, 16]} px={[6, null, 10]} scrollMarginTop="100px">
           <Flex direction={['column', null, 'row']} mb={8}>
             <Box w={['100%', null, '200px']} flexShrink={0} mb={[4, null, 0]}>
@@ -583,6 +497,92 @@ export default function Home() {
                 <Text fontSize="13px" opacity={0.85}>Ongoing research looking into underground technologies for affective, nondual or nonordinary experience. This project engages neurophenomenology and computational modeling of qualia in order to develop digital renderings of underground assemblages.</Text>
               </Box>
             </Flex>
+          </Box>
+        </Flex>
+
+        <Flex 
+          id="values"
+          direction={['column', null, 'row']} 
+          w="100%" 
+          py={[10, null, 20]} 
+          px={[6, null, 10]}
+          bg="bg"
+          scrollMarginTop="100px"
+        >
+          <Box w={['100%', null, '200px']} flexShrink={0} mb={[4, null, 0]}>
+            <Box w="40px" h="1px" bg="primary" opacity={0.3} mb={3} />
+            <Text 
+              fontSize="14px" 
+              fontWeight="500" 
+              letterSpacing="2px"
+              color="primary"
+              fontFamily="'Inter', sans-serif"
+            >
+              〈 <Box as="span" bg="#e8e8e8" color="bg" px={1}>Values</Box> 〉
+            </Text>
+          </Box>
+          <Box flex="1" maxW="800px">
+            <Text fontSize="15px" lineHeight="1.85" color="primary" opacity={0.85} mb={8}>
+              Our engagement with the archive and ethnographic study of underground communities alerted us to five principles (or four key values + one major operational principle) that animate the underground. They are as follows:
+            </Text>
+            <Box position="relative" mb={10}>
+              <Image 
+                src="/assets/Frame_1-4_1766814770591.png" 
+                alt="Four core underground values plus one formal quality" 
+                w="100%"
+                maxW="700px"
+              />
+            </Box>
+            <Flex direction={['column', null, 'row']} gap={[3, null, 4]} flexWrap="wrap" mb={10}>
+              <Box w={['100%', null, 'calc(50% - 8px)']} bg="#1a1a1a" p={4} borderRadius="md">
+                <Heading as="h3" fontSize="15px" fontWeight="600" mb={2}>High Agency</Heading>
+                <Text fontSize="13px" opacity={0.85}>
+                  Participants actively shape situations, infrastructures, and outcomes through situated and emergent decision-making. Agency circulates rather than concentrates, expressed through improvisation, responsibility, and the capacity to act without delegated authority.
+                </Text>
+              </Box>
+              <Box w={['100%', null, 'calc(50% - 8px)']} bg="#1a1a1a" p={4} borderRadius="md">
+                <Heading as="h3" fontSize="15px" fontWeight="600" mb={2}>Open Aesthetic</Heading>
+                <Text fontSize="13px" opacity={0.85}>
+                  Aesthetic coherence is dynamic, arising and changing with the gestalt of the network. Subjection to an aesthetic condition is forsaken for a challenge to participate and codetermine a{' '}
+                  <Tooltip 
+                    label="Distinguished from a spectacle, which requires spectators, a performance is a deliberate cultivation of a vibe (or what Deleuze & Guattari would call a 'plateau') optimized for luring in new influences or affects."
+                    bg="white"
+                    color="black"
+                    fontSize="13px"
+                    p={3}
+                    maxW="320px"
+                    hasArrow
+                    placement="top"
+                  >
+                    <Box as="span" bg="#e8e8e8" color="bg" px={1} cursor="help" borderBottom="1px dashed" borderColor="bg">performance</Box>
+                  </Tooltip>.
+                </Text>
+              </Box>
+              <Box w={['100%', null, 'calc(50% - 8px)']} bg="#1a1a1a" p={4} borderRadius="md">
+                <Heading as="h3" fontSize="15px" fontWeight="600" mb={2}>Consent Forward</Heading>
+                <Text fontSize="13px" opacity={0.85}>
+                  Coordination is grounded in explicit, situated agreements that are continuously renegotiated. Boundaries, roles, and intensities remain legible to participants, enabling trust, experimentation, and mutual care under conditions of risk and transformation.
+                </Text>
+              </Box>
+              <Box w={['100%', null, 'calc(50% - 8px)']} bg="#1a1a1a" p={4} borderRadius="md">
+                <Heading as="h3" fontSize="15px" fontWeight="600" mb={2}>Process Oriented</Heading>
+                <Text fontSize="13px" opacity={0.85}>
+                  Attention is directed toward unfolding, qualitative dynamics rather than quantitative, static outcomes. This means emphasis on intensive experience or "qualia" - affect, epiphany, synchronicity, the nondual, and most importantly the experience of dissolution into larger subjectivities that may be determined by social, material, technological dynamics or (more likely) all of the above.
+                </Text>
+              </Box>
+              <Box w="100%" bg="#1a1a1a" p={4} borderRadius="md">
+                <Heading as="h3" fontSize="15px" fontWeight="600" mb={2}>(Open Protocolized)</Heading>
+                <Text fontSize="13px" opacity={0.85}>
+                  Practices crystallize into reusable patterns through a kind of natural selection in the "cold exterior" of the extitutional realm, where practical empiricism and novelty-infatuation reign. Weathered by the exterior, open protocols develop an acute, open empiricism, manifested as (a) availability to appropriation, forking, recombination to whatever material ends, & (b) resistance and circumvention to any system that compromises (a), and (c) compact and compelling enough form to facilitate free & open circulation.
+                </Text>
+              </Box>
+            </Flex>
+            <Text fontSize="15px" lineHeight="1.85" color="primary" opacity={0.85} mb={6}>
+              The underground is a recessive organism, resisting formalization or categorization even as it generates abundant protocols that depend on both of those tactics to persist. Nonetheless, a meta-politics or meta-ethics of this dynamic, changing and process-first movement is useful to orient ourselves in the landscape of emerging technology.
+            </Text>
+            <Text fontSize="15px" lineHeight="1.85" color="primary" opacity={0.85}>
+              We generate this formal account not in order to enclose the underground, but because we our confident in our position that <em>it cannot be enclosed</em>.
+            </Text>
           </Box>
         </Flex>
 
