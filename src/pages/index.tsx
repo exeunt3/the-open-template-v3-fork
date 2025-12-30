@@ -85,12 +85,12 @@ export default function Home() {
               color="primary"
               fontFamily="'Inter', sans-serif"
             >
-              〈 <Box as="span" bg="primary" color="bg" px={1}>What We Do</Box> 〉
+              〈 <Box as="span" bg="#e8e8e8" color="bg" px={1}>What We Do</Box> 〉
             </Text>
           </Box>
           <Box flex="1" maxW="800px">
             <Text fontSize="17px" lineHeight="1.85" color="primary" opacity={0.85} mb={8}>
-              The Open Machine is a creative outpost for scaling <Link href="#values"><Box as="span" bg="primary" color="bg" px={1} cursor="pointer" _hover={{ opacity: 0.8 }}>underground values</Box></Link> alongside, within and through emerging technologies. We produce media & events and stage research on the actualization of extitutional social forms in the twenty first century.
+              The Open Machine is a creative outpost for scaling <Link href="#values"><Box as="span" bg="#e8e8e8" color="bg" px={1} cursor="pointer" _hover={{ opacity: 0.8 }}>underground values</Box></Link> alongside, within and through emerging technologies. We produce media & events and stage research on the actualization of extitutional social forms in the twenty first century.
             </Text>
             <Text fontSize="15px" lineHeight="1.85" color="primary" opacity={0.85} mb={6}>
               Institutions (in their dominant form as centralized, administrative bureaucracies) are known to concentrate power, homogenize culture, enshittify technology, obscure empirical conditions in favor of party lines and, worse of all, generate cultures of complacency where direct empirical engagement with reality is sidelined for the opiate coziness of a protected inside.
@@ -110,7 +110,7 @@ export default function Home() {
                 hasArrow
                 placement="top"
               >
-                <Box as="span" bg="primary" color="bg" px={1} cursor="help" borderBottom="1px dashed" borderColor="bg">protocol underground</Box>
+                <Box as="span" bg="#e8e8e8" color="bg" px={1} cursor="help" borderBottom="1px dashed" borderColor="bg">protocol underground</Box>
               </Tooltip>.
             </Text>
             <Text fontSize="15px" lineHeight="1.85" color="primary" opacity={0.85} mb={6}>
@@ -125,7 +125,7 @@ export default function Home() {
                 hasArrow
                 placement="top"
               >
-                <Box as="span" bg="primary" color="bg" px={1} cursor="help" borderBottom="1px dashed" borderColor="bg">existential technologies</Box>
+                <Box as="span" bg="#e8e8e8" color="bg" px={1} cursor="help" borderBottom="1px dashed" borderColor="bg">existential technologies</Box>
               </Tooltip>, the emergent principles of the underground are in a position to scale to conspicuous dominance as cynical actors and obsolete formulas fall beneath the compounding increase in degrees of freedom the new forms provide.
             </Text>
             <Text fontSize="15px" lineHeight="1.85" color="primary" opacity={0.85} mb={10}>
@@ -140,7 +140,7 @@ export default function Home() {
                 hasArrow
                 placement="top"
               >
-                <Box as="span" bg="primary" color="bg" px={1} cursor="help" borderBottom="1px dashed" borderColor="bg">horizontally determined</Box>
+                <Box as="span" bg="#e8e8e8" color="bg" px={1} cursor="help" borderBottom="1px dashed" borderColor="bg">horizontally determined</Box>
               </Tooltip>{' '}
               nature of the values themselves.
             </Text>
@@ -165,12 +165,12 @@ export default function Home() {
               color="primary"
               fontFamily="'Inter', sans-serif"
             >
-              〈 <Box as="span" bg="primary" color="bg" px={1}>Values</Box> 〉
+              〈 <Box as="span" bg="#e8e8e8" color="bg" px={1}>Values</Box> 〉
             </Text>
           </Box>
           <Box flex="1" maxW="800px">
             <Text fontSize="15px" lineHeight="1.85" color="primary" opacity={0.85} mb={8}>
-              Our engagement with the archive and ethnographic study of underground communities alerted us to five principles (or four key values + one major operational principle) that animate the underground.
+              Our engagement with the archive and ethnographic study of underground communities alerted us to five principles (or four key values + one major operational principle) that animate the underground. They are as follows:
             </Text>
             <Box position="relative" mb={10}>
               <Image 
@@ -201,7 +201,7 @@ export default function Home() {
                     hasArrow
                     placement="top"
                   >
-                    <Box as="span" bg="primary" color="bg" px={1} cursor="help" borderBottom="1px dashed" borderColor="bg">performance</Box>
+                    <Box as="span" bg="#e8e8e8" color="bg" px={1} cursor="help" borderBottom="1px dashed" borderColor="bg">performance</Box>
                   </Tooltip>.
                 </Text>
               </Box>
@@ -244,12 +244,12 @@ export default function Home() {
                 color="primary"
                 fontFamily="'Inter', sans-serif"
               >
-                〈 <Box as="span" bg="primary" color="bg" px={1}>Media</Box> 〉
+                〈 <Box as="span" bg="#e8e8e8" color="bg" px={1}>Media</Box> 〉
               </Text>
             </Box>
             <Box flex="1" maxW="600px">
               <Text fontSize="15px" lineHeight="1.7" color="primary" opacity={0.85}>
-                Open Machine media takes the form of zines, books, posters, and other web content. All work is licensed Creative Commons. In some cases, our work is commissioned by align actors in technology or the academic space.
+                Open Machine media takes the form of zines, books, posters, and other web content. All work is licensed Creative Commons. In some cases, our work is commissioned by aligned actors in technology or the academic space.
               </Text>
             </Box>
           </Flex>
@@ -317,7 +317,7 @@ export default function Home() {
                     <Link
                       href={item.href}
                       display="inline-block"
-                      bg="white"
+                      bg="#e8e8e8"
                       color="black"
                       borderRadius="full"
                       px={6}
@@ -428,7 +428,7 @@ export default function Home() {
               color="primary"
               fontFamily="'Inter', sans-serif"
             >
-              〈 <Box as="span" bg="primary" color="bg" px={1}>Events</Box> 〉
+              〈 <Box as="span" bg="#e8e8e8" color="bg" px={1}>Events</Box> 〉
             </Text>
           </Box>
           <Box flex="1">
@@ -445,7 +445,7 @@ export default function Home() {
                   hasArrow
                   placement="top"
                 >
-                  <Box as="span" bg="primary" color="bg" px={1} cursor="help" borderBottom="1px dashed" borderColor="bg">lecture</Box>
+                  <Box as="span" bg="#e8e8e8" color="bg" px={1} cursor="help" borderBottom="1px dashed" borderColor="bg">lecture</Box>
                 </Tooltip>.
               </Text>
             </Box>
@@ -544,13 +544,13 @@ export default function Home() {
               color="primary"
               fontFamily="'Inter', sans-serif"
             >
-              〈 <Box as="span" bg="primary" color="bg" px={1}>Research</Box> 〉
+              〈 <Box as="span" bg="#e8e8e8" color="bg" px={1}>Research</Box> 〉
             </Text>
           </Box>
           <Box flex="1">
             <Box maxW="600px" mb={10}>
               <Text fontSize="15px" lineHeight="1.7" color="primary" opacity={0.85}>
-                The Open Machine conducts research on the diverse elaborations of the protocol underground - the spontaneous orders, open protocols, and plural ontologies of the space outside of administrative institutions - and its clashes with the emerging face of social capture, enclosure and control. As an{' '}
+                The Open Machine conducts research on the spontaneous orders, open protocols, and plural ontologies of the space outside of administrative institutions, and its clashes with an emerging front of social capture, enclosure and control. As an{' '}
                 <Tooltip 
                   label="Extitutions are small, often ephemeral organizational bodies that use the benefits of institutional legibility to secure, protect and formalize the open empiricism of protocol undergrounds. The name was chosen to emphasize that they are discrete, atomic counterparts to the field-like and process forward phenomena of extitutional dynamics. Extitutions generally serve two roles: a) bundling technical protocols with open cultural values to shield them from capture, b) erecting or facilitating temporary autonomous zones to aid the crystallization of those values. They can be thought of as institutional avatars of protocol undergrounds, strategically deployed to fill power vacuums and keep institutional capture at bay. This often means taking on a trickster character, making deliberately disingenuous and playful use of institutional structures, running distract while the extitutional networks they serve remain in a state of illegibility."
                   bg="white"
@@ -561,7 +561,7 @@ export default function Home() {
                   hasArrow
                   placement="top"
                 >
-                  <Box as="span" bg="primary" color="bg" px={1} cursor="help" borderBottom="1px dashed" borderColor="bg">extitution</Box>
+                  <Box as="span" bg="#e8e8e8" color="bg" px={1} cursor="help" borderBottom="1px dashed" borderColor="bg">extitution</Box>
                 </Tooltip>, our goal is to produce practical, materially grounded knowledge-sets that might evolve into open protocols adequate to the new technological landscape.
               </Text>
             </Box>

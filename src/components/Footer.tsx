@@ -20,7 +20,7 @@ export const Footer = () => {
             opacity={0.6}
             mb={4}
           >
-            〈 <Box as="span" bg="primary" color="bg" px={1}>Newsletter</Box> 〉
+            〈 <Box as="span" bg="#e8e8e8" color="bg" px={1}>Newsletter</Box> 〉
           </Text>
           <Text fontSize="15px" lineHeight="1.6" color="primary" opacity={0.8} mb={6}>
             Stay up to date with transmissions from The Open Machine.
@@ -41,7 +41,7 @@ export const Footer = () => {
               _focus={{ borderColor: 'primary', boxShadow: 'none' }}
             />
             <Button
-              bg="primary"
+              bg="#e8e8e8"
               color="bg"
               borderRadius="none"
               px={6}
@@ -64,7 +64,7 @@ export const Footer = () => {
             opacity={0.6}
             mb={4}
           >
-            〈 <Box as="span" bg="primary" color="bg" px={1}>Navigate</Box> 〉
+            〈 <Box as="span" bg="#e8e8e8" color="bg" px={1}>Navigate</Box> 〉
           </Text>
           <VStack align="start" spacing={2}>
             <Link href="#what-we-do" fontSize="14px" color="primary" opacity={0.7} _hover={{ opacity: 1 }}>What We Do</Link>
@@ -84,11 +84,11 @@ export const Footer = () => {
             opacity={0.6}
             mb={4}
           >
-            〈 <Box as="span" bg="primary" color="bg" px={1}>Connect</Box> 〉
+            〈 <Box as="span" bg="#e8e8e8" color="bg" px={1}>Connect</Box> 〉
           </Text>
           <VStack align="start" spacing={2}>
             <Link href="https://x.com/theopenmachine" isExternal fontSize="14px" color="primary" opacity={0.7} _hover={{ opacity: 1 }}>Twitter</Link>
-            <Link href="mailto:theopenmachine@protonmail.com" fontSize="14px" color="primary" opacity={0.7} _hover={{ opacity: 1 }}>Email</Link>
+            <Link href="mailto:theopenmachine@protonmail.com" isExternal fontSize="14px" color="primary" opacity={0.7} _hover={{ opacity: 1 }}>theopenmachine@protonmail.com</Link>
           </VStack>
         </Box>
       </Flex>
