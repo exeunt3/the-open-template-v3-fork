@@ -185,31 +185,43 @@ export default function Home() {
               <Box w={['100%', null, 'calc(50% - 8px)']} border="1px solid" borderColor="primary" p={4} borderRadius="sm">
                 <Heading as="h3" fontSize="15px" fontWeight="600" mb={2}>High Agency</Heading>
                 <Text fontSize="13px" opacity={0.85}>
-                  The capacity and willingness to act decisively in conditions of uncertainty. High agency actors initiate rather than wait, prototype rather than plan, and take responsibility for outcomes rather than deferring to institutional authority.
+                  Participants actively shape situations, infrastructures, and outcomes through situated and emergent decision-making. Agency circulates rather than concentrates, expressed through improvisation, responsibility, and the capacity to act without delegated authority.
                 </Text>
               </Box>
               <Box w={['100%', null, 'calc(50% - 8px)']} border="1px solid" borderColor="primary" p={4} borderRadius="sm">
                 <Heading as="h3" fontSize="15px" fontWeight="600" mb={2}>Open Aesthetic</Heading>
                 <Text fontSize="13px" opacity={0.85}>
-                  A commitment to transparency, accessibility, and the free circulation of cultural forms. Open aesthetic practices resist enclosure and proprietary capture, favoring commons-based creation and permissionless participation.
+                  Aesthetic coherence is dynamic, arising and changing with the gestalt of the network. Subjection to an aesthetic condition is forsaken for a challenge to participate and codetermine a{' '}
+                  <Tooltip 
+                    label="Distinguished from a spectacle, which requires spectators, a performance is a deliberate cultivation of a vibe (or what Deleuze & Guattari would call a 'plateau') optimized for luring in new influences or affects."
+                    bg="white"
+                    color="black"
+                    fontSize="13px"
+                    p={3}
+                    maxW="320px"
+                    hasArrow
+                    placement="top"
+                  >
+                    <Box as="span" bg="primary" color="bg" px={1} cursor="help" borderBottom="1px dashed" borderColor="bg">performance</Box>
+                  </Tooltip>.
                 </Text>
               </Box>
               <Box w={['100%', null, 'calc(50% - 8px)']} border="1px solid" borderColor="primary" p={4} borderRadius="sm">
                 <Heading as="h3" fontSize="15px" fontWeight="600" mb={2}>Consent Forward</Heading>
                 <Text fontSize="13px" opacity={0.85}>
-                  Prioritizing explicit, ongoing consent as the foundation of all coordination. Consent-forward systems reject coercion, manipulation, and hidden influence, building legitimacy through voluntary participation and mutual agreement.
+                  Coordination is grounded in explicit, situated agreements that are continuously renegotiated. Boundaries, roles, and intensities remain legible to participants, enabling trust, experimentation, and mutual care under conditions of risk and transformation.
                 </Text>
               </Box>
               <Box w={['100%', null, 'calc(50% - 8px)']} border="1px solid" borderColor="primary" p={4} borderRadius="sm">
                 <Heading as="h3" fontSize="15px" fontWeight="600" mb={2}>Process Oriented</Heading>
                 <Text fontSize="13px" opacity={0.85}>
-                  Valuing the quality of the journey over the destination. Process-oriented practices understand that how we do things shapes what we become, and that emergent outcomes often exceed predetermined goals.
+                  Attention is directed toward unfolding, qualitative dynamics rather than quantitative, static outcomes. This means emphasis on intensive experience or "qualia" - affect, epiphany, synchronicity, the nondual, and most importantly the experience of dissolution into larger subjectivities that may be determined by social, material, technological dynamics or (more likely) all of the above.
                 </Text>
               </Box>
               <Box w="100%" border="1px solid" borderColor="primary" p={4} borderRadius="sm">
                 <Heading as="h3" fontSize="15px" fontWeight="600" mb={2}>(Open Protocolized)</Heading>
                 <Text fontSize="13px" opacity={0.85}>
-                  The operational principle that binds the others together. Open protocols enable coordination without hierarchy, synchronization without central authority, and persistence without institutional capture.
+                  Practices crystallize into reusable patterns through a kind of natural selection in the "cold exterior" of the extitutional realm, where practical empiricism and novelty-infatuation reign. Weathered by the exterior, open protocols develop an acute, open empiricism, manifested as (a) availability to appropriation, forking, recombination to whatever material ends, & (b) resistance and circumvention to any system that compromises (a), and (c) compact and compelling enough form to facilitate free & open circulation.
                 </Text>
               </Box>
             </Flex>
