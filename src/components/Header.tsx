@@ -45,12 +45,12 @@ export const Header = () => {
             fontSize="12px"
             fontWeight="400"
             letterSpacing="1px"
-            _hover={{ opacity: 0.8, textDecoration: 'none' }}
+            color="primary"
+            opacity={0.7}
+            _hover={{ opacity: 1, textDecoration: 'none' }}
             transition="opacity 0.2s ease"
           >
-            <Box as="span" bg="primary" color="bg" px={2} py={1}>
-              {item.label}
-            </Box>
+            {item.label}
           </Link>
         ))}
       </HStack>
