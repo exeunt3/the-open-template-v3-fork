@@ -568,19 +568,19 @@ export default function Home() {
             <Flex direction={['column', null, 'row']} gap={[3, null, 4]} flexWrap="wrap">
               <Box w={['100%', null, 'calc(50% - 8px)']} bg="#1a1a1a" p={4} borderRadius="md">
                 <Heading fontSize="15px" mb={2} fontWeight="600">PCVC</Heading>
-                <Text fontSize="13px" opacity={0.85}>Research into polycentric value creation and the mechanisms of distributed coordination.</Text>
+                <Text fontSize="13px" opacity={0.85}>Contracted project in collaboration with Open Civics Labs to identify strategies for ethical venture capital that exploit the legitimacy crisis of late stage capitalism and anticipate a post-capitalist transition. Final product forthcoming for Allo Capital.</Text>
               </Box>
               <Box w={['100%', null, 'calc(50% - 8px)']} bg="#1a1a1a" p={4} borderRadius="md">
                 <Heading fontSize="15px" mb={2} fontWeight="600">Hyperactive Public Goods Funding</Heading>
-                <Text fontSize="13px" opacity={0.85}>Exploring novel mechanisms for sustaining commons and public goods in networked environments.</Text>
+                <Text fontSize="13px" opacity={0.85}>Research project bundling web3 capital allocation mechanisms into a modular apparatus to effectively fund public goods projects from early stage to end-cycle verification. Made possible with the help of Public Nouns.</Text>
               </Box>
               <Box w={['100%', null, 'calc(50% - 8px)']} bg="#1a1a1a" p={4} borderRadius="md">
                 <Heading fontSize="15px" mb={2} fontWeight="600">Open Protocols Research Group</Heading>
-                <Text fontSize="13px" opacity={0.85}>A collaborative inquiry into the social and technical dimensions of protocol-based coordination.</Text>
+                <Text fontSize="13px" opacity={0.85}>Multi-year cohort working in the context of <Link href="https://www.ethereumlocalism.xyz/" isExternal textDecoration="underline" _hover={{ opacity: 0.8 }}>Ethereum Localism</Link> to find formal isomorphism between open source web protocols and open protocols of urban cultural spaces. Made possible with funding from Arbitrum Grants and Ethereal Forest.</Text>
               </Box>
               <Box w={['100%', null, 'calc(50% - 8px)']} bg="#1a1a1a" p={4} borderRadius="md">
                 <Heading fontSize="15px" mb={2} fontWeight="600">Intensive Protocols</Heading>
-                <Text fontSize="13px" opacity={0.85}>Investigating the affective and embodied dimensions of protocol adoption and resistance.</Text>
+                <Text fontSize="13px" opacity={0.85}>Ongoing research looking into underground technologies for affective, nondual or nonordinary experience. This project engages neurophenomenology and computational modeling of qualia in order to develop digital renderings of underground assemblages.</Text>
               </Box>
             </Flex>
           </Box>
