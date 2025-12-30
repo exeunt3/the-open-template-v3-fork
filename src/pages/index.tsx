@@ -181,13 +181,13 @@ export default function Home() {
               />
             </Box>
             <Flex direction={['column', null, 'row']} gap={[3, null, 4]} flexWrap="wrap" mb={10}>
-              <Box w={['100%', null, 'calc(50% - 8px)']} border="1px solid" borderColor="primary" p={4} borderRadius="sm">
+              <Box w={['100%', null, 'calc(50% - 8px)']} bg="#1a1a1a" p={4} borderRadius="md">
                 <Heading as="h3" fontSize="15px" fontWeight="600" mb={2}>High Agency</Heading>
                 <Text fontSize="13px" opacity={0.85}>
                   Participants actively shape situations, infrastructures, and outcomes through situated and emergent decision-making. Agency circulates rather than concentrates, expressed through improvisation, responsibility, and the capacity to act without delegated authority.
                 </Text>
               </Box>
-              <Box w={['100%', null, 'calc(50% - 8px)']} border="1px solid" borderColor="primary" p={4} borderRadius="sm">
+              <Box w={['100%', null, 'calc(50% - 8px)']} bg="#1a1a1a" p={4} borderRadius="md">
                 <Heading as="h3" fontSize="15px" fontWeight="600" mb={2}>Open Aesthetic</Heading>
                 <Text fontSize="13px" opacity={0.85}>
                   Aesthetic coherence is dynamic, arising and changing with the gestalt of the network. Subjection to an aesthetic condition is forsaken for a challenge to participate and codetermine a{' '}
@@ -205,19 +205,19 @@ export default function Home() {
                   </Tooltip>.
                 </Text>
               </Box>
-              <Box w={['100%', null, 'calc(50% - 8px)']} border="1px solid" borderColor="primary" p={4} borderRadius="sm">
+              <Box w={['100%', null, 'calc(50% - 8px)']} bg="#1a1a1a" p={4} borderRadius="md">
                 <Heading as="h3" fontSize="15px" fontWeight="600" mb={2}>Consent Forward</Heading>
                 <Text fontSize="13px" opacity={0.85}>
                   Coordination is grounded in explicit, situated agreements that are continuously renegotiated. Boundaries, roles, and intensities remain legible to participants, enabling trust, experimentation, and mutual care under conditions of risk and transformation.
                 </Text>
               </Box>
-              <Box w={['100%', null, 'calc(50% - 8px)']} border="1px solid" borderColor="primary" p={4} borderRadius="sm">
+              <Box w={['100%', null, 'calc(50% - 8px)']} bg="#1a1a1a" p={4} borderRadius="md">
                 <Heading as="h3" fontSize="15px" fontWeight="600" mb={2}>Process Oriented</Heading>
                 <Text fontSize="13px" opacity={0.85}>
                   Attention is directed toward unfolding, qualitative dynamics rather than quantitative, static outcomes. This means emphasis on intensive experience or "qualia" - affect, epiphany, synchronicity, the nondual, and most importantly the experience of dissolution into larger subjectivities that may be determined by social, material, technological dynamics or (more likely) all of the above.
                 </Text>
               </Box>
-              <Box w="100%" border="1px solid" borderColor="primary" p={4} borderRadius="sm">
+              <Box w="100%" bg="#1a1a1a" p={4} borderRadius="md">
                 <Heading as="h3" fontSize="15px" fontWeight="600" mb={2}>(Open Protocolized)</Heading>
                 <Text fontSize="13px" opacity={0.85}>
                   Practices crystallize into reusable patterns through a kind of natural selection in the "cold exterior" of the extitutional realm, where practical empiricism and novelty-infatuation reign. Weathered by the exterior, open protocols develop an acute, open empiricism, manifested as (a) availability to appropriation, forking, recombination to whatever material ends, & (b) resistance and circumvention to any system that compromises (a), and (c) compact and compelling enough form to facilitate free & open circulation.
@@ -502,7 +502,7 @@ export default function Home() {
           <Box w={['100%', null, '200px']} flexShrink={0} mb={[4, null, 0]} />
           <Box flex="1">
             <Flex direction={['column', null, 'row']} gap={[3, null, 4]}>
-              <Box flex="1" border="1px solid" borderColor="primary" p={4} borderRadius="sm">
+              <Box flex="1" bg="#1a1a1a" p={4} borderRadius="md">
                 <Text fontSize="10px" fontWeight="500" textTransform="uppercase" letterSpacing="1px" mb={3} opacity={0.5} fontFamily="'Inter', sans-serif">2025</Text>
                 <Flex direction="column" gap={2}>
                   <Text fontSize="13px">Gathering — <em>Open Protocols Convene</em>, Boulder, Colorado</Text>
@@ -512,7 +512,7 @@ export default function Home() {
                   <Text fontSize="13px">Gathering — <em>GFEL II</em>, Boulder, Colorado</Text>
                 </Flex>
               </Box>
-              <Box flex="1" border="1px solid" borderColor="primary" p={4} borderRadius="sm">
+              <Box flex="1" bg="#1a1a1a" p={4} borderRadius="md">
                 <Text fontSize="10px" fontWeight="500" textTransform="uppercase" letterSpacing="1px" mb={3} opacity={0.5} fontFamily="'Inter', sans-serif">2023–2024</Text>
                 <Flex direction="column" gap={2}>
                   <Text fontSize="13px">Workshop — <em>Institutions, Extitutions and the Body without Organs</em>, Belgium 2024</Text>
@@ -566,19 +566,19 @@ export default function Home() {
               </Text>
             </Box>
             <Flex direction={['column', null, 'row']} gap={[3, null, 4]} flexWrap="wrap">
-              <Box w={['100%', null, 'calc(50% - 8px)']} border="1px solid" borderColor="primary" p={4} borderRadius="sm">
+              <Box w={['100%', null, 'calc(50% - 8px)']} bg="#1a1a1a" p={4} borderRadius="md">
                 <Heading fontSize="15px" mb={2} fontWeight="600">PCVC</Heading>
                 <Text fontSize="13px" opacity={0.85}>Research into polycentric value creation and the mechanisms of distributed coordination.</Text>
               </Box>
-              <Box w={['100%', null, 'calc(50% - 8px)']} border="1px solid" borderColor="primary" p={4} borderRadius="sm">
+              <Box w={['100%', null, 'calc(50% - 8px)']} bg="#1a1a1a" p={4} borderRadius="md">
                 <Heading fontSize="15px" mb={2} fontWeight="600">Hyperactive Public Goods Funding</Heading>
                 <Text fontSize="13px" opacity={0.85}>Exploring novel mechanisms for sustaining commons and public goods in networked environments.</Text>
               </Box>
-              <Box w={['100%', null, 'calc(50% - 8px)']} border="1px solid" borderColor="primary" p={4} borderRadius="sm">
+              <Box w={['100%', null, 'calc(50% - 8px)']} bg="#1a1a1a" p={4} borderRadius="md">
                 <Heading fontSize="15px" mb={2} fontWeight="600">Open Protocols Research Group</Heading>
                 <Text fontSize="13px" opacity={0.85}>A collaborative inquiry into the social and technical dimensions of protocol-based coordination.</Text>
               </Box>
-              <Box w={['100%', null, 'calc(50% - 8px)']} border="1px solid" borderColor="primary" p={4} borderRadius="sm">
+              <Box w={['100%', null, 'calc(50% - 8px)']} bg="#1a1a1a" p={4} borderRadius="md">
                 <Heading fontSize="15px" mb={2} fontWeight="600">Intensive Protocols</Heading>
                 <Text fontSize="13px" opacity={0.85}>Investigating the affective and embodied dimensions of protocol adoption and resistance.</Text>
               </Box>
