@@ -579,11 +579,8 @@ export default function Home() {
                 </Text>
               </Box>
             </Flex>
-            <Text fontSize="15px" lineHeight="1.85" color="primary" opacity={0.85} mb={6}>
-              The underground is a recessive organism, resisting formalization or categorization even as it generates abundant protocols that depend on both of those tactics to persist. Nonetheless, a meta-politics or meta-ethics of this dynamic, changing and process-first movement is useful to orient ourselves in the landscape of emerging technology.
-            </Text>
             <Text fontSize="15px" lineHeight="1.85" color="primary" opacity={0.85}>
-              We generate this formal account not in order to enclose the underground, but because we our confident in our position that <em>it cannot be enclosed</em>.
+              The underground is a recessive organism, resisting formalization or categorization even as it generates abundant protocols that depend on both of those tactics to persist. We generate this formal account not in order to enclose the underground, but because we our confident in our position that <em>it cannot be enclosed</em>.
             </Text>
           </Box>
         </Flex>
